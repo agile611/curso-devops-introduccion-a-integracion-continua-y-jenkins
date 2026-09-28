@@ -94,7 +94,7 @@ nav:
       - Objetivos del curso: 00-el-curso/00-01-objetivos.md
       - Requisitos previos: 00-el-curso/00-02-requisitos-previos.md
   - Integración Continua y Jenkins:
-      - Introducción a DevOps y la integración continua: 01-introduccion_devops.md
+      - Introducción a DevOps y la integración continua: 01_introduccion_devops.md
       - Arquitectura Jenkins: 02_architectura_jenkins.md
       - Pipelines: 03_pipelines.md
       - Node: 04_node.md
