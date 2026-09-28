@@ -4,7 +4,6 @@ site_description: "Curso DevOps: Introducción a Integración Continua y Jenkins
 site_author: "Guillem Hernandez Sola"
 site_url: "https://agile611.github.io/curso-devops-introduccion-a-integracion-continua-y-jenkins/"
 
-repo_name: "agile611/startusinggrafana"
 repo_url: "https://github.com/agile611/curso-devops-introduccion-a-integracion-continua-y-jenkins"
 docs_dir: "docs"
 site_dir: "site"
