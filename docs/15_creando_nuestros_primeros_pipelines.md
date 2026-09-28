@@ -1,2 +1,0 @@
-# Creando nuestros primeros pipelines
-

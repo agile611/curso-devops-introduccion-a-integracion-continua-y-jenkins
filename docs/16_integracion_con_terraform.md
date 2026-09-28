@@ -1,2 +1,0 @@
-# Integración con Terraform
-
