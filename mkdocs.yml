@@ -111,10 +111,10 @@ nav:
       - Integración con Terraform: 01-fundamentos/16_integracion_con_terraform.md
       - Integración con Ansible: 01-fundamentos/17_integracion_con_ansible.md
   - Prácticas:
-      - Práctica: Configuración básica: 02-practicas/01_practica_configuracion_basica.md
-      - Práctica: Creación de pipelines: 02-practicas/02_practica_creacion_pipelines.md
-      - Práctica: Integración con Terraform: 02-practicas/03_practica_integracion_terraform.md
-      - Práctica: Integración con Ansible: 02-practicas/04_practica_integracion_ansible.md
+      - Configuración básica: 02-practicas/01_practica_configuracion_basica.md
+      - Creación de pipelines: 02-practicas/02_practica_creacion_pipelines.md
+      - Integración con Terraform: 02-practicas/03_practica_integracion_terraform.md
+      - Integración con Ansible: 02-practicas/04_practica_integracion_ansible.md
   - Avanzado:
       - Mejores prácticas: 03-avanzado/01_mejores_practicas.md
       - Seguridad en Jenkins: 03-avanzado/02_seguridad_en_jenkins.md
