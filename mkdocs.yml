@@ -90,9 +90,9 @@ extra_javascript:
 nav:
   - Inicio: index.md
   - El curso:
-      - Introducción: 00-el-curso/00-index.md
-      - Objetivos del curso: 00-el-curso/01-objetivos.md
-      - Requisitos previos: 00-el-curso/02-requisitos-previos.md
+      - Introducción: 00-el-curso/00-00-index.md
+      - Objetivos del curso: 00-el-curso/00-01-objetivos.md
+      - Requisitos previos: 00-el-curso/00-02-requisitos-previos.md
   - Integración Continua y Jenkins:
       - Introducción a DevOps y la integración continua: 01-introduccion_devops.md
       - Arquitectura Jenkins: 02_architectura_jenkins.md
