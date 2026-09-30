@@ -92,6 +92,7 @@ nav:
       - Introducción: 00-el-curso/00-00-index.md
       - Objetivos del curso: 00-el-curso/00-01-objetivos.md
       - Requisitos previos: 00-el-curso/00-02-requisitos-previos.md
+      - Instalación de Jenkins: 00-el-curso/00-03-instalacion-jenkins.md
   - Fundamentos:
       - ¿Quién es DevOps?: 01-fundamentos/01_quien_es_devops.md
       - CI vs. CD vs. CD: 01-fundamentos/02_ci_vs_cd_vs_cd.md
