@@ -2,9 +2,9 @@
 
 Bienvenido/a a la documentación del **Curso DevOps: Introducción a la Integración Continua y Jenkins**.
 
-En este curso aprenderás a aplicar los fundamentos de DevOps y a automatizar procesos con **Jenkins**. También conocerás cómo integrar pipelines con **Git**, **Terraform**, **Ansible** y **Docker**.
+En este curso aprenderás los fundamentos de DevOps y a automatizar procesos con **Jenkins**. También trabajarás con **Git**, **Terraform**, **Ansible** y **Docker** mediante explicaciones y ejemplos prácticos.
 
-La documentación combina explicaciones y ejemplos prácticos. El recorrido empieza con los conceptos esenciales y avanza hacia pipelines y procesos de automatización más completos.
+El recorrido comienza con los conceptos esenciales y avanza hacia la creación de pipelines y la automatización de infraestructura.
 
 **Duración:** 4 días · 20 horas  
 **Entorno de referencia:** Ubuntu 24.04.5 LTS  
@@ -24,7 +24,7 @@ Al finalizar el curso, tendrás una base práctica para comprender y construir f
 - Comprender la arquitectura de Jenkins y el papel de sus nodos y agentes.
 - Crear jobs de tipo Freestyle y pipelines.
 - Definir pipelines como código mediante un `Jenkinsfile`.
-- Usar parámetros, variables de entorno, condiciones y aprobaciones interactivas.
+- Utilizar parámetros, variables de entorno y aprobaciones interactivas.
 - Gestionar errores, timeouts y notificaciones.
 - Integrar Jenkins con repositorios Git.
 - Automatizar tareas de infraestructura con Terraform.
@@ -38,11 +38,12 @@ El curso está organizado en módulos que avanzan desde los fundamentos hasta la
 
 ### 1. El curso
 
-Presentación, objetivos y requisitos previos.
+Presentación, objetivos, requisitos previos e instalación de Jenkins.
 
 - [Introducción](00-el-curso/00-00-index.md)
 - [Objetivos del curso](00-el-curso/00-01-objetivos.md)
 - [Requisitos previos](00-el-curso/00-02-requisitos-previos.md)
+- [Instalación de Jenkins en Ubuntu](00-el-curso/00-03-instalacion-jenkins.md)
 
 ### 2. Fundamentos
 
@@ -63,7 +64,7 @@ Conceptos de DevOps, CI/CD y Jenkins, junto con los primeros ejercicios práctic
 
 ### 3. Pipelines
 
-Creación y evolución de pipelines: desde la estructura de un `Jenkinsfile` hasta la construcción completa de una aplicación.
+Creación y evolución de pipelines, desde la estructura de un `Jenkinsfile` hasta la construcción completa de una aplicación.
 
 - [Anatomía de un Jenkinsfile](02-pipelines/01_anatomia_de_un_jenkinsfile.md)
 - [Pipeline distribuido](02-pipelines/02_pipeline_distribuido.md)
@@ -77,25 +78,34 @@ Creación y evolución de pipelines: desde la estructura de un `Jenkinsfile` has
 - [Captura de datos](02-pipelines/10_capturando_datos.md)
 - [Construcción completa de una aplicación](02-pipelines/11_construccion_completa.md)
 
-### 4. Miscelánea
+### 4. Agentes y Docker
 
 Configuración de agentes efímeros para ejecutar trabajos en entornos aislados.
 
 - [Configuración de agentes efímeros con Docker Cloud](03-miscelania/01_configuracion_agentes_efimeros.md)
 
-### 5. Terraform
+### 5. Prácticas
+
+Ejercicios para poner en práctica la configuración de Jenkins y la integración con otras herramientas.
+
+- [Práctica: configuración básica](04-practicas/01_practica_configuracion_basica.md)
+- [Práctica: creación de pipelines](04-practicas/02_practica_creacion_pipelines.md)
+- [Práctica: integración con Terraform](04-practicas/03_practica_integracion_terraform.md)
+- [Práctica: integración con Ansible](04-practicas/04_practica_integracion_ansible.md)
+
+### 6. Terraform
 
 Introducción a la infraestructura como código e integración de Terraform en pipelines de Jenkins.
 
 - [¿Por qué Terraform?](04-terraform/01_por_que_terraform.md)
 - [Preparación del entorno](04-terraform/02_preparacion_del_entorno.md)
 - [Gestión de credenciales](04-terraform/03_gestion_de_credenciales.md)
-- [Inicialización y planificación: un secreto simulado](04-terraform/04_pipeline_stage_init_plan.md)
+- [Inicialización y planificación](04-terraform/04_pipeline_stage_init_plan.md)
 - [Creación del plan](04-terraform/05_creando_el_plan.md)
 - [Aplicación del plan con aprobación manual](04-terraform/06_pipeline_stage_apply_human_approval.md)
 - [Modificación de la infraestructura](04-terraform/07_modificando_la_infraestructura.md)
 
-### 6. Ansible
+### 7. Ansible
 
 Automatización de tareas y orquestación mediante playbooks de Ansible.
 
@@ -103,7 +113,7 @@ Automatización de tareas y orquestación mediante playbooks de Ansible.
 - [El primer playbook](05-ansible/02_el_primer_playbook.md)
 - [Orquestación completa](05-ansible/03_orquestacion_completa.md)
 
-### 7. Referencias
+### 8. Referencias
 
 Documentación y recursos complementarios para seguir aprendiendo.
 
@@ -115,7 +125,7 @@ Documentación y recursos complementarios para seguir aprendiendo.
 
 ## Herramientas principales
 
-Durante el curso se utilizan herramientas habituales en entornos DevOps. Cada una cumple una función distinta dentro del flujo de trabajo:
+Durante el curso se utilizan herramientas habituales en entornos DevOps. Cada una cumple una función dentro del flujo de trabajo.
 
 | **Herramienta** | **Uso en el curso** |
 |---|---|
@@ -129,15 +139,15 @@ Durante el curso se utilizan herramientas habituales en entornos DevOps. Cada un
 
 ## Cómo seguir el curso
 
-Para construir los conocimientos paso a paso, sigue este orden:
+Para avanzar paso a paso:
 
 1. Revisa la presentación, los objetivos y los requisitos previos.
-2. Estudia los fundamentos de DevOps, CI/CD y Jenkins.
-3. Crea tus primeros jobs y pipelines.
-4. Profundiza en los `Jenkinsfile`, los agentes y el manejo de errores.
-5. Integra Terraform en un pipeline.
-6. Practica la automatización y la orquestación con Ansible.
-7. Consulta las referencias y el glosario cuando necesites ampliar conceptos.
+2. Prepara el entorno siguiendo la guía de [instalación de Jenkins](00-el-curso/00-03-instalacion-jenkins.md).
+3. Estudia los fundamentos de DevOps, CI/CD y Jenkins.
+4. Crea tus primeros jobs y pipelines.
+5. Profundiza en los `Jenkinsfile`, los agentes y el manejo de errores.
+6. Completa las prácticas de integración con Terraform y Ansible.
+7. Consulta las referencias y el glosario para ampliar conceptos.
 
 ---
 
@@ -151,7 +161,7 @@ Se recomienda tener conocimientos básicos de:
 - Archivos YAML.
 - Conceptos generales de desarrollo de software.
 
-No es necesario tener experiencia avanzada con Jenkins, Terraform o Ansible. Los conocimientos previos de estas herramientas son útiles, pero no imprescindibles.
+El entorno de referencia del curso es **Ubuntu 24.04.5 LTS**. No es necesario tener experiencia avanzada con Jenkins, Terraform o Ansible: el curso introduce estas herramientas progresivamente.
 
 ---
 
@@ -159,7 +169,7 @@ No es necesario tener experiencia avanzada con Jenkins, Terraform o Ansible. Los
 
 Al completar el curso, deberías poder diseñar un flujo básico de integración continua con Jenkins, conectar el pipeline a un repositorio de código y organizar su ejecución mediante etapas y agentes.
 
-También tendrás una introducción práctica a la automatización de infraestructura y configuración con Terraform y Ansible. El propósito es aprender Jenkins como herramienta y, al mismo tiempo, entender cómo contribuye a una forma de trabajo DevOps basada en colaboración, automatización y mejora continua.
+También tendrás una introducción práctica a la automatización de infraestructura y configuración con Terraform y Ansible. El propósito es aprender a utilizar Jenkins y comprender cómo contribuye a una forma de trabajo DevOps basada en colaboración, automatización y mejora continua.
 
 ---
 
