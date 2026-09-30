@@ -1,17 +1,18 @@
-repo_name: "agile611/curso-devops-introduccion-a-integracion-continua-y-jenkins"
-site_name: "Curso DevOps: Introducción a Integración Continua y Jenkins"
-site_description: "Curso DevOps: Introducción a Integración Continua y Jenkins"
-site_author: "Guillem Hernandez Sola"
-site_url: "https://agile611.github.io/curso-devops-introduccion-a-integracion-continua-y-jenkins/"
+site_name: "Curso DevOps: Introducción a la Integración Continua y Jenkins"
+site_description: "Curso práctico de DevOps, integración continua y Jenkins"
+site_author: "Guillem Hernández Sola"
+site_url: "https://docs.agile611.com/curso-devops-introduccion-a-integracion-continua-y-jenkins/"
 
+repo_name: "agile611/curso-devops-introduccion-a-integracion-continua-y-jenkins"
 repo_url: "https://github.com/agile611/curso-devops-introduccion-a-integracion-continua-y-jenkins"
+
 docs_dir: "docs"
 site_dir: "site"
 
 theme:
   name: "material"
   language: "es"
-  
+
   logo: "https://www.agile611.com/wp-content/uploads/2020/09/Negativo.png"
   favicon: "https://www.agile611.com/wp-content/uploads/2019/07/cropped-agile611-1-e1563910774746-1-32x32.png"
 
@@ -58,19 +59,26 @@ markdown_extensions:
   - tables
   - footnotes
   - def_list
+
   - toc:
       permalink: true
       toc_depth: 3
+
   - pymdownx.details
   - pymdownx.superfences
+
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
+
   - pymdownx.inlinehilite
+
   - pymdownx.tabbed:
       alternate_style: true
+
   - pymdownx.tasklist:
       custom_checkbox: true
+
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -88,50 +96,63 @@ extra_javascript:
 
 nav:
   - Inicio: index.md
+
   - El curso:
       - Introducción: 00-el-curso/00-00-index.md
       - Objetivos del curso: 00-el-curso/00-01-objetivos.md
       - Requisitos previos: 00-el-curso/00-02-requisitos-previos.md
       - Instalación de Jenkins: 00-el-curso/00-03-instalacion-jenkins.md
+
   - Fundamentos:
       - ¿Quién es DevOps?: 01-fundamentos/01_quien_es_devops.md
-      - CI vs. CD vs. CD: 01-fundamentos/02_ci_vs_cd_vs_cd.md
+      - CI, entrega continua y despliegue continuo: 01-fundamentos/02_ci_vs_cd_vs_cd.md
       - Entorno de trabajo: 01-fundamentos/03_entorno_de_trabajo.md
       - Repositorio de código: 01-fundamentos/04_repositorio_de_codigo.md
-      - Arquitectura y instalación: 01-fundamentos/05_architectura_y_instalacion.md
-      - Conclusiones DevOps y CI/CD: 01-fundamentos/06_conclusiones_devops_y_ci_cd.md
+      - Arquitectura e instalación: 01-fundamentos/05_architectura_y_instalacion.md
+      - Conclusiones sobre DevOps y CI/CD: 01-fundamentos/06_conclusiones_devops_y_ci_cd.md
       - ¿Qué es un job de Jenkins?: 01-fundamentos/07_que_es_un_job_de_jenkins.md
-      - El primer job (Freestyle): 01-fundamentos/08_el_primer_job_freestyle.md
-      - ¿Qué es un Agente (Node) en Jenkins?: 01-fundamentos/09_que_es_un_agente_node.md
-      - Conectando un Agente: 01-fundamentos/10_conectando_un_agente.md
-      - ¿Qué es un Pipeline de Jenkins?: 01-fundamentos/11_que_es_un_pipeline.md
+      - El primer job Freestyle: 01-fundamentos/08_el_primer_job_freestyle.md
+      - ¿Qué es un agente o nodo de Jenkins?: 01-fundamentos/09_que_es_un_agente_node.md
+      - Conectar un agente: 01-fundamentos/10_conectando_un_agente.md
+      - ¿Qué es un pipeline de Jenkins?: 01-fundamentos/11_que_es_un_pipeline.md
       - El primer pipeline: 01-fundamentos/12_el_primer_pipeline.md
+
   - Pipelines:
       - Anatomía de un Jenkinsfile: 02-pipelines/01_anatomia_de_un_jenkinsfile.md
-      - Pipeline Distribuido: 02-pipelines/02_pipeline_distribuido.md
-      - ¿Por qué hacer servir el SCM para los Jenkinsfile?: 02-pipelines/03_scm_y_jenkinsfile.md
-      - De local a Jenkins: 02-pipelines/04_de_local_a_jenkins.md
+      - Pipeline distribuido: 02-pipelines/02_pipeline_distribuido.md
+      - Jenkinsfile y SCM: 02-pipelines/03_scm_y_jenkinsfile.md
+      - Del entorno local a Jenkins: 02-pipelines/04_de_local_a_jenkins.md
       - Parámetros y variables de entorno: 02-pipelines/05_parametros_y_variables.md
-      - Pipeline Interactivo: 02-pipelines/06_pipeline_interactivo.md
-      - Options, Post & Notifications: 02-pipelines/07_options_post_notifications.md
-      - Control de errores (Timeout): 02-pipelines/08_control_de_errores.md
+      - Pipeline interactivo: 02-pipelines/06_pipeline_interactivo.md
+      - Opciones, acciones posteriores y notificaciones: 02-pipelines/07_options_post_notifications.md
+      - Control de errores y timeouts: 02-pipelines/08_control_de_errores.md
       - El bloque script: 02-pipelines/09_el_bloque_script.md
-      - Capturando datos: 02-pipelines/10_capturando_datos.md
+      - Captura de datos: 02-pipelines/10_capturando_datos.md
       - Construcción completa de una aplicación: 02-pipelines/11_construccion_completa.md
+
   - Miscelánea:
-      - Configuración de agentes efímeros (Docker Cloud): 03-miscelania/01_configuracion_agentes_efimeros.md
+      - Agentes efímeros con Docker Cloud: 03-miscelania/01_configuracion_agentes_efimeros.md
+
+  - Prácticas:
+      - Configuración básica: 04-practicas/01_practica_configuracion_basica.md
+      - Creación de pipelines: 04-practicas/02_practica_creacion_pipelines.md
+      - Integración con Terraform: 04-practicas/03_practica_integracion_terraform.md
+      - Integración con Ansible: 04-practicas/04_practica_integracion_ansible.md
+
   - Terraform:
       - ¿Por qué Terraform?: 04-terraform/01_por_que_terraform.md
       - Preparación del entorno: 04-terraform/02_preparacion_del_entorno.md
       - Gestión de credenciales: 04-terraform/03_gestion_de_credenciales.md
-      - Un secreto simulado: 04-terraform/04_pipeline_stage_init_plan.md
-      - Creando el plan: 04-terraform/05_creando_el_plan.md
-      - Aprobación manual: 04-terraform/06_pipeline_stage_apply_human_approval.md
-      - Modificando la Infraestructura: 04-terraform/07_modificando_la_infraestructura.md
+      - Inicialización y planificación: 04-terraform/04_pipeline_stage_init_plan.md
+      - Creación del plan: 04-terraform/05_creando_el_plan.md
+      - Aplicación con aprobación manual: 04-terraform/06_pipeline_stage_apply_human_approval.md
+      - Modificación de la infraestructura: 04-terraform/07_modificando_la_infraestructura.md
+
   - Ansible:
       - ¿Por qué Ansible?: 05-ansible/01_por_que_ansible.md
-      - El tu primer playbook: 05-ansible/02_el_primer_playbook.md
+      - El primer playbook: 05-ansible/02_el_primer_playbook.md
       - Orquestación completa: 05-ansible/03_orquestacion_completa.md
+
   - Referencias:
       - Documentación oficial: 06-referencias/01_documentacion_oficial.md
       - Recursos útiles: 06-referencias/02_recursos_utiles.md
