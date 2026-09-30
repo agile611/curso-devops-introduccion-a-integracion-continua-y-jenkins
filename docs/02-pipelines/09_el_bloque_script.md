@@ -6,46 +6,6 @@ El bloque `script` permite incluir lógica Groovy con estilo Scripted dentro de 
 
 > **Uso seguro:** practica en un job de laboratorio. Revisa cualquier código Groovy antes de ejecutarlo, especialmente si procede de una rama que no controlas. No guardes secretos en variables normales ni los imprimas en consola. Mantén los bloques `script` pequeños y prefiere la sintaxis declarativa cuando sea suficiente.
 
-## Esquema de la página
-
-- ## Fundamentos de `script`
-  - ### Pipeline declarativo y Groovy
-  - ### Qué hace y qué no hace `script`
-  - ### Cuándo utilizarlo
-  - ### Cuándo evitarlo
-- ## Sintaxis y contexto
-  - ### Dónde puede aparecer
-  - ### Lógica condicional
-  - ### Variables y tipos
-  - ### Acceso a `params`, `env` y `currentBuild`
-- ## Control de flujo
-  - ### Condiciones
-  - ### Bucles
-  - ### Cálculos sencillos
-  - ### Manejo de errores
-- ## Jenkins Pipeline y Groovy CPS
-  - ### Ejecución reanudable
-  - ### Persistencia de variables
-  - ### Serialización
-  - ### `@NonCPS` y sus límites
-- ## Seguridad y mantenimiento
-  - ### Sandbox y aprobaciones
-  - ### Datos no confiables
-  - ### Credenciales
-  - ### Tamaño y legibilidad
-- ## Sesiones prácticas
-  - ### Identificar Groovy y shell
-  - ### Añadir condiciones
-  - ### Procesar parámetros
-  - ### Repetir comprobaciones
-  - ### Manejar errores
-  - ### Construir un pipeline integrador
-- ## Diagnóstico y evaluación
-  - ### Errores frecuentes
-  - ### Checklist
-  - ### Preguntas y ejercicios
-  - ### Glosario y síntesis
-
 ## Fundamentos de `script`
 
 El bloque `script` es una frontera explícita entre la estructura declarativa y la lógica Groovy más flexible.

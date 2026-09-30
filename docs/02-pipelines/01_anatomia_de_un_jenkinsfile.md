@@ -4,36 +4,6 @@ Un `Jenkinsfile` es un archivo de texto que define un pipeline de Jenkins como c
 
 Esta unidad recorre las partes más importantes de un `Jenkinsfile` declarativo. Incluye ejemplos progresivos, sesiones prácticas y ejercicios de diagnóstico. Los ejemplos están preparados para un laboratorio: no despliegan software, no requieren credenciales y deben ejecutarse únicamente en un agente autorizado por el curso.
 
-## Esquema de la página
-
-- ## Conceptos fundamentales
-  - ### Qué es un `Jenkinsfile`
-  - ### Pipeline, job, ejecución, etapa y paso
-  - ### Pipeline declarativo y Scripted
-  - ### Cómo leer el archivo de arriba abajo
-- ## Anatomía de un pipeline declarativo
-  - ### `pipeline`
-  - ### `agent`
-  - ### `stages`, `stage` y `steps`
-  - ### `post`
-  - ### `environment`, `parameters`, `options` y `triggers`
-- ## Sintaxis y componentes
-  - ### Groovy, Jenkins y shell
-  - ### Cadenas, llaves y anidamiento
-  - ### Comandos y códigos de salida
-  - ### Condiciones, herramientas y paralelismo
-- ## Sesiones de práctica
-  - ### Leer un Jenkinsfile
-  - ### Crear un pipeline mínimo
-  - ### Añadir validaciones y artefactos
-  - ### Provocar y corregir fallos
-  - ### Revisar seguridad y estilo
-- ## Diagnóstico y evaluación
-  - ### Errores frecuentes
-  - ### Checklist de revisión
-  - ### Ejercicios y respuestas
-  - ### Glosario y síntesis
-
 ## Conceptos fundamentales
 
 La anatomía de un `Jenkinsfile` se entiende mejor cuando se distinguen el flujo, su configuración y su ejecución.

@@ -6,46 +6,6 @@ Esta unidad explica cómo fallan los pasos, cómo Jenkins propaga los errores y 
 
 > **Uso seguro:** realiza las prácticas únicamente en un job y agentes de laboratorio autorizados. No utilices comandos destructivos, credenciales reales ni sistemas de producción. Un pipeline debe dejar visible un fallo importante; no fuerces un resultado exitoso para silenciarlo.
 
-## Esquema de la página
-
-- ## Fundamentos del control de errores
-  - ### Qué es un error en un pipeline
-  - ### Fallo, inestabilidad, aborto y etapa omitida
-  - ### Propagación del error
-  - ### Por qué no se deben ocultar fallos
-- ## Pasos y códigos de salida
-  - ### Códigos de salida de shell
-  - ### `sh` y `bat`
-  - ### `returnStatus`
-  - ### Mensajes y trazas
-- ## Herramientas declarativas de manejo
-  - ### `error`
-  - ### `catchError`
-  - ### `warnError`
-  - ### `retry`
-  - ### `timeout`
-  - ### `unstable`
-- ## Manejo en Groovy y condiciones posteriores
-  - ### `try` y `catch`
-  - ### Interrupciones y cancelaciones
-  - ### `post`
-  - ### Fallos de notificación o limpieza
-- ## Diseño y diagnóstico
-  - ### Errores recuperables y no recuperables
-  - ### Reintentos con criterio
-  - ### Registro útil
-  - ### Seguridad
-- ## Sesiones prácticas
-  - ### Provocar un fallo controlado
-  - ### Capturar un código de salida
-  - ### Reintentar y limitar el tiempo
-  - ### Gestionar errores con `catchError`
-  - ### Diagnosticar y documentar
-- ## Evaluación y referencia
-  - ### Checklist
-  - ### Preguntas y ejercicios
-  - ### Glosario y síntesis
-
 ## Fundamentos del control de errores
 
 Un pipeline debe diferenciar entre una tarea que terminó correctamente, una que falló y una que no llegó a ejecutarse.

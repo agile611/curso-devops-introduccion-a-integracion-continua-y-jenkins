@@ -6,36 +6,6 @@ En esta unidad aprenderás a leer y escribir pipelines declarativos, a entender 
 
 > **Uso seguro:** realiza las prácticas únicamente en una instancia de laboratorio autorizada. Los ejemplos no despliegan en producción ni requieren credenciales. No incluyas secretos en archivos `Jenkinsfile`, parámetros, comandos o logs.
 
-## Esquema de la página
-
-- ## Conceptos fundamentales
-  - ### Qué es un pipeline
-  - ### Para qué sirve
-  - ### Pipeline, job y ejecución
-  - ### Declarativo y Scripted
-- ## Estructura del pipeline declarativo
-  - ### `pipeline`
-  - ### `agent`
-  - ### `stages`, `stage` y `steps`
-  - ### `post`
-- ## Componentes y opciones
-  - ### Variables y entorno
-  - ### Parámetros
-  - ### Condiciones
-  - ### Herramientas y opciones
-  - ### Paralelismo y matriz
-- ## Prácticas guiadas
-  - ### Crear el primer pipeline
-  - ### Validar un proyecto
-  - ### Provocar y diagnosticar fallos
-  - ### Archivar un artefacto
-  - ### Usar Git y un agente etiquetado
-- ## Mantenimiento, seguridad y evaluación
-  - ### Buenas prácticas
-  - ### Diagnóstico
-  - ### Sesiones de práctica
-  - ### Repaso y glosario
-
 ## Conceptos fundamentales
 
 Un pipeline transforma una secuencia de tareas en un proceso explícito, revisable y repetible.

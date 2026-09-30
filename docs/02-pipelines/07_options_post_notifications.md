@@ -6,46 +6,6 @@ Una notificación útil no consiste solo en enviar un mensaje: debe corresponder
 
 > **Uso seguro:** los ejemplos con plugins de correo o chat son ilustrativos. Úsalos únicamente si el administrador los ha instalado y autorizado. No incluyas contraseñas, tokens, datos personales ni secretos en el `Jenkinsfile`, los logs o el contenido de las notificaciones.
 
-## Esquema de la página
-
-- ## Conceptos fundamentales
-  - ### Qué hacen `options`, `post` y las notificaciones
-  - ### Resultado de una ejecución
-  - ### Pipeline completo y etapas
-  - ### Cuándo notificar
-- ## El bloque `options`
-  - ### Ubicación y alcance
-  - ### Límite de tiempo con `timeout`
-  - ### Concurrencia con `disableConcurrentBuilds`
-  - ### Retención con `buildDiscarder`
-  - ### Checkout, pausa y otras opciones
-- ## El bloque `post`
-  - ### `always`, `success` y `failure`
-  - ### `unstable`, `aborted` y `unsuccessful`
-  - ### `changed`, `fixed` y `regression`
-  - ### `cleanup`
-  - ### `post` de pipeline y de etapa
-- ## Notificaciones
-  - ### Contenido de un mensaje
-  - ### Correo electrónico
-  - ### Chat y plugins
-  - ### Evitar ruido y duplicados
-- ## Diseño, seguridad y diagnóstico
-  - ### Limpieza segura
-  - ### Fallos en acciones `post`
-  - ### Historial y resultados
-  - ### Buenas prácticas
-- ## Sesiones prácticas
-  - ### Añadir opciones
-  - ### Probar resultados y condiciones
-  - ### Construir un resumen
-  - ### Simular notificaciones
-  - ### Diagnosticar fallos
-- ## Evaluación y referencia
-  - ### Checklist
-  - ### Preguntas
-  - ### Glosario y síntesis
-
 ## Conceptos fundamentales
 
 `options`, `post` y las notificaciones controlan aspectos diferentes del ciclo de vida de una ejecución.

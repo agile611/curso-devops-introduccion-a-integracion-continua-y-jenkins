@@ -6,58 +6,6 @@ El ejemplo principal es un proyecto de laboratorio inocuo. No realiza despliegue
 
 > **Seguridad:** utiliza únicamente una instancia y un job autorizados. No añadas credenciales reales a los ejemplos, parámetros, archivos, consola o notificaciones. No ejecutes comandos destructivos ni uses estos patrones para modificar sistemas de producción sin revisión y autorización.
 
-## Esquema de la página
-
-- ## Objetivos y alcance
-  - ### Resultados de aprendizaje
-  - ### Qué se construirá
-  - ### Qué queda fuera del laboratorio
-- ## Planificación del pipeline
-  - ### Requisitos del proyecto
-  - ### Estructura del repositorio
-  - ### Contrato de entrada y salida
-  - ### Decisiones de diseño
-- ## Preparación del proyecto
-  - ### Crear los archivos
-  - ### Validar el proyecto localmente
-  - ### Revisar agente y herramientas
-- ## Estructura declarativa
-  - ### `pipeline`, `agent`, `stages` y `steps`
-  - ### Convenciones del `Jenkinsfile`
-  - ### Variables de entorno
-  - ### Parámetros
-- ## Construcción etapa por etapa
-  - ### Checkout y contexto de ejecución
-  - ### Validación de estructura
-  - ### Pruebas
-  - ### Captura de datos
-  - ### Resumen y artefactos
-- ## Errores y resultados
-  - ### Códigos de salida
-  - ### Validaciones obligatorias y opcionales
-  - ### `retry`, `timeout` y `catchError`
-  - ### `post`
-- ## Seguridad y mantenibilidad
-  - ### Entradas y secretos
-  - ### Workspace y artefactos
-  - ### Concurrencia y retención
-  - ### Revisiones de código
-- ## Pipeline integrador
-  - ### Jenkinsfile completo
-  - ### Recorrido de ejecución
-  - ### Casos de prueba
-- ## Sesiones prácticas
-  - ### Construcción incremental
-  - ### Parámetros y condiciones
-  - ### Captura y publicación
-  - ### Fallos controlados
-  - ### Revisión por pares
-- ## Diagnóstico y evaluación
-  - ### Errores frecuentes
-  - ### Checklist
-  - ### Rúbrica
-  - ### Preguntas y glosario
-
 ---
 
 ## Objetivos y alcance

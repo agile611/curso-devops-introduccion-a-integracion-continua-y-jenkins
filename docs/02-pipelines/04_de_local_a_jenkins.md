@@ -6,48 +6,6 @@ Esta unidad acompaña el recorrido completo: preparar un proyecto local, comprob
 
 > **Uso seguro:** utiliza el repositorio, la instancia de Jenkins y los agentes autorizados por el curso. No introduzcas credenciales de producción. No publiques secretos en Git, en el `Jenkinsfile`, en parámetros ni en logs. Antes de ejecutar código desconocido, revisa qué comandos contiene.
 
-## Esquema de la página
-
-- ## Contexto y objetivos
-  - ### Qué significa pasar de local a Jenkins
-  - ### Objetivos de aprendizaje
-  - ### Alcance y requisitos
-- ## Preparar el entorno local
-  - ### Herramientas
-  - ### Proyecto de práctica
-  - ### Scripts y pruebas locales
-  - ### Diferencias entre local y CI
-- ## Versionar el proyecto
-  - ### Repositorio Git
-  - ### Commits y ramas
-  - ### Revisión antes de enviar cambios
-  - ### `.gitignore` y secretos
-- ## Conectar Jenkins al proyecto
-  - ### Job Pipeline
-  - ### SCM y checkout
-  - ### Agente y etiquetas
-  - ### Primera ejecución
-- ## Crear y ampliar el Jenkinsfile
-  - ### Pipeline mínimo
-  - ### Validaciones
-  - ### Herramientas y entorno
-  - ### Artefactos e informes
-- ## Diagnóstico y calidad
-  - ### Errores frecuentes
-  - ### Comparar local y agente
-  - ### Reproducibilidad
-  - ### Seguridad
-- ## Sesiones prácticas
-  - ### Proyecto desde cero
-  - ### Commit y checkout
-  - ### Ejecución y fallo controlado
-  - ### Integración final
-- ## Evaluación y referencia
-  - ### Checklist
-  - ### Preguntas
-  - ### Ejercicios
-  - ### Glosario y síntesis
-
 ## Contexto y objetivos
 
 El paso de un proyecto local a Jenkins revela si el trabajo depende de una configuración invisible del equipo de quien lo desarrolla.

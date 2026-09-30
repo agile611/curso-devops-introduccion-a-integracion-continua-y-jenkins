@@ -6,37 +6,6 @@ En esta unidad construirás tu primer pipeline declarativo. Empezarás con un me
 
 > **Entorno de práctica:** trabaja solo en la instancia, el repositorio y los agentes autorizados por el curso. Estos ejemplos no despliegan a producción ni necesitan credenciales. No añadas contraseñas, tokens o claves a un `Jenkinsfile`, un script o un log.
 
-## Esquema de la página
-
-- ## Conceptos fundamentales
-  - ### Qué es un pipeline
-  - ### Job, pipeline, ejecución, etapa y paso
-  - ### Por qué guardar el pipeline como código
-  - ### Pipeline declarativo y Scripted
-- ## Estructura de un Jenkinsfile
-  - ### `pipeline`
-  - ### `agent`
-  - ### `stages`, `stage` y `steps`
-  - ### Comandos y resultados
-  - ### `post`
-- ## Preparar el proyecto
-  - ### Crear el directorio
-  - ### Crear la aplicación de ejemplo
-  - ### Crear una validación
-  - ### Probar localmente
-- ## Prácticas guiadas
-  - ### Pipeline mínimo
-  - ### Pipeline con validaciones
-  - ### Pipeline con artefacto
-  - ### Conectar el repositorio
-  - ### Provocar y corregir fallos
-- ## Diagnóstico y buenas prácticas
-  - ### Leer la consola
-  - ### Errores frecuentes
-  - ### Seguridad y mantenimiento
-  - ### Sesiones de práctica
-  - ### Repaso y glosario
-
 ## Conceptos fundamentales
 
 Un pipeline permite describir un flujo de trabajo y ejecutar sus pasos de forma ordenada.

@@ -6,55 +6,6 @@ La práctica utiliza comandos inocuos y un proyecto de laboratorio. No configura
 
 > **Seguridad:** trabaja únicamente en la instancia, carpeta y repositorio autorizados. No incluyas contraseñas, tokens, claves privadas ni datos personales en el `Jenkinsfile`, los parámetros, la consola o los artefactos. No cambies ajustes globales ni ejecutes comandos destructivos.
 
-## Esquema de la página
-
-- ## Objetivos y alcance
-  - ### Resultados de aprendizaje
-  - ### Qué se construirá
-  - ### Requisitos previos
-- ## Conceptos de Pipeline
-  - ### Job, build, agente y workspace
-  - ### Pipeline declarativo
-  - ### Pipeline como código
-  - ### Freestyle frente a Pipeline
-- ## Preparación del proyecto
-  - ### Estructura del repositorio
-  - ### Archivos de ejemplo
-  - ### Prueba local
-- ## Crear un Pipeline desde Jenkins
-  - ### Pipeline script en la interfaz
-  - ### Guardar y ejecutar
-  - ### Revisar etapas y consola
-- ## Crear un pipeline desde SCM
-  - ### Preparar el `Jenkinsfile`
-  - ### Configurar el job
-  - ### Validar el checkout
-- ## Construir el pipeline por partes
-  - ### Agente y opciones
-  - ### Parámetros y entorno
-  - ### Etapas, pasos y shell
-  - ### Condiciones y etapas opcionales
-  - ### Capturar resultados
-  - ### Artefactos y acciones posteriores
-- ## Patrones de construcción
-  - ### Pipeline mínimo
-  - ### Pipeline de validación
-  - ### Pipeline con parámetros
-  - ### Pipeline con pruebas y publicación
-- ## Sesiones prácticas
-  - ### Exploración y planificación
-  - ### Crear el primer pipeline
-  - ### Incorporar validaciones
-  - ### Probar éxito y fallo
-  - ### Publicar artefactos
-  - ### Proyecto integrador
-- ## Diagnóstico y evaluación
-  - ### Errores frecuentes
-  - ### Checklist
-  - ### Rúbrica
-  - ### Preguntas y glosario
-- ## Síntesis y entrega
-
 ---
 
 ## Objetivos y alcance

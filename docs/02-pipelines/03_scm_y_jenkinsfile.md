@@ -6,45 +6,6 @@ Esta unidad explica cómo se relacionan SCM, Git, jobs de Jenkins y pipelines. I
 
 > **Uso seguro:** trabaja únicamente con repositorios, credenciales y servicios autorizados por el curso. Los ejemplos no despliegan software. No incluyas contraseñas, tokens ni claves privadas en el `Jenkinsfile`, las URLs, los scripts, los commits o los logs.
 
-## Esquema de la página
-
-- ## Conceptos fundamentales
-  - ### Qué significa SCM
-  - ### Git, repositorio, commit y rama
-  - ### Relación entre SCM y Jenkins
-  - ### Qué es un `Jenkinsfile`
-- ## Formas de definir un pipeline
-  - ### Pipeline escrito en la interfaz
-  - ### Pipeline almacenado en SCM
-  - ### Pipeline multibranch
-  - ### Cuándo elegir cada opción
-- ## Configurar el acceso a SCM
-  - ### URL, ramas y rutas
-  - ### Credenciales
-  - ### Checkout y `checkout scm`
-  - ### Webhooks y sondeo
-- ## Ramas, cambios y revisiones
-  - ### Rama principal y ramas de trabajo
-  - ### Pull requests y solicitudes de cambios
-  - ### Commit que ejecuta Jenkins
-  - ### Changelog y checkout reproducible
-- ## Seguridad y mantenimiento
-  - ### Código no confiable
-  - ### Protección de secretos
-  - ### Acceso de lectura y escritura
-  - ### Revisión del `Jenkinsfile`
-- ## Sesiones prácticas
-  - ### Crear el repositorio
-  - ### Versionar el primer `Jenkinsfile`
-  - ### Configurar un job desde SCM
-  - ### Probar cambios de rama
-  - ### Diagnosticar problemas
-- ## Evaluación y referencia
-  - ### Checklist de configuración
-  - ### Preguntas de repaso
-  - ### Ejercicios
-  - ### Glosario y síntesis
-
 ## Conceptos fundamentales
 
 SCM guarda el historial del código y permite recuperar una revisión concreta para construirla, probarla o revisarla.

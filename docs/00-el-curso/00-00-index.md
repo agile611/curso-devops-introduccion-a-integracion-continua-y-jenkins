@@ -10,9 +10,6 @@ El recorrido comienza con los conceptos esenciales y avanza hacia la creación d
 **Entorno de referencia:** Ubuntu 24.04.5 LTS  
 **Autor:** Guillem Hernández Sola · Agile611
 
-[Comenzar el curso](00-01-objetivos.md){ .md-button .md-button--primary }
-[Ver el repositorio en GitHub](https://github.com/agile611/curso-devops-introduccion-a-integracion-continua-y-jenkins){ .md-button }
-
 ---
 
 ## ¿Qué aprenderás?

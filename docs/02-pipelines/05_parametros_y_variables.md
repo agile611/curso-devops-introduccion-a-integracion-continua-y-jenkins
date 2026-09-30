@@ -6,47 +6,6 @@ Esta unidad explica cómo declarar parámetros en un pipeline declarativo, cómo
 
 > **Uso seguro:** practica únicamente en una instancia de laboratorio. Los ejemplos usan valores no sensibles. No pongas contraseñas, tokens ni claves privadas en parámetros de texto, archivos versionados, comandos, `echo` o logs. Para secretos, usa el almacén de credenciales autorizado.
 
-## Esquema de la página
-
-- ## Conceptos fundamentales
-  - ### Parámetros y variables
-  - ### Alcance y ciclo de vida
-  - ### Groovy, Jenkins y shell
-- ## Parámetros de pipeline
-  - ### Parámetros de texto
-  - ### Parámetros booleanos
-  - ### Parámetros de selección
-  - ### Parámetros de contraseña
-  - ### Valores predeterminados
-  - ### Acceso mediante `params`
-- ## Variables en Jenkins
-  - ### Variables de entorno
-  - ### Bloque `environment`
-  - ### `withEnv`
-  - ### Variables del sistema
-  - ### Alcance global y por etapa
-- ## Validación y uso de entradas
-  - ### Validar valores
-  - ### Evitar inyección de comandos
-  - ### Usar parámetros en condiciones
-  - ### Diferencias entre Groovy y shell
-- ## Secretos y credenciales
-  - ### Parámetros sensibles
-  - ### Almacén de credenciales
-  - ### Enmascaramiento y límites
-  - ### Buenas prácticas
-- ## Sesiones prácticas
-  - ### Declarar y consultar parámetros
-  - ### Seleccionar modos
-  - ### Variables y alcance
-  - ### Validar entradas
-  - ### Diagnosticar errores
-- ## Referencia y evaluación
-  - ### Checklist
-  - ### Preguntas
-  - ### Ejercicios
-  - ### Glosario y síntesis
-
 ## Conceptos fundamentales
 
 Los parámetros y las variables pueden parecer similares, pero resuelven necesidades distintas.

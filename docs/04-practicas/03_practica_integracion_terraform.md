@@ -6,56 +6,6 @@ El laboratorio enseña a conectar herramientas, repositorio y pipeline sin expon
 
 > **Regla de seguridad:** ejecuta las sesiones únicamente en la carpeta, repositorio y agente autorizados. No añadas credenciales cloud, no uses un backend de producción y no ejecutes `terraform apply` como parte de esta práctica. El plan puede incluir información sensible: no lo publiques ni lo archives sin una política aprobada.
 
-## Esquema de la página
-
-- ## Objetivos y alcance
-  - ### Resultados de aprendizaje
-  - ### Qué se construirá
-  - ### Qué queda fuera
-- ## Conceptos de Terraform y Jenkins
-  - ### Infraestructura como código
-  - ### Recursos, proveedores y estado
-  - ### Pipeline y agente
-  - ### Plan frente a aplicación
-- ## Arquitectura de la práctica
-  - ### Flujo de trabajo
-  - ### Repositorio y archivos
-  - ### Límites del entorno
-- ## Preparación del proyecto Terraform
-  - ### Crear la estructura
-  - ### Configuración de laboratorio
-  - ### Validación local
-- ## Preparar Jenkins
-  - ### Agente y herramientas
-  - ### Repositorio y permisos
-  - ### Variables y credenciales
-- ## Construir el pipeline
-  - ### Checkout
-  - ### Comprobar Terraform
-  - ### Formato
-  - ### Inicialización segura
-  - ### Validación
-  - ### Plan
-  - ### Artefactos y limpieza
-- ## Integración segura en entornos reales
-  - ### Backend remoto y estado
-  - ### Credenciales cloud
-  - ### Separación por entornos
-  - ### Aprobación y aplicación
-- ## Sesiones prácticas
-  - ### Inspeccionar Terraform
-  - ### Crear la configuración local
-  - ### Crear el pipeline
-  - ### Provocar errores controlados
-  - ### Leer el plan
-  - ### Proyecto integrador
-- ## Diagnóstico, evaluación y referencia
-  - ### Errores frecuentes
-  - ### Checklist
-  - ### Rúbrica
-  - ### Preguntas y glosario
-  - ### Síntesis y entrega
-
 ---
 
 ## Objetivos y alcance

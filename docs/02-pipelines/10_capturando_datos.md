@@ -6,34 +6,6 @@ Esta página presenta las técnicas habituales para recoger datos en un `Jenkins
 
 > **Seguridad:** realiza las sesiones solo en un job de laboratorio autorizado. No captures, imprimas ni archives contraseñas, tokens, claves privadas ni otros secretos. Gestiona las credenciales mediante el almacén aprobado por la instancia de Jenkins. Valida los datos antes de utilizarlos en comandos, rutas o decisiones.
 
-## Esquema de la página
-
-- ## Fundamentos de la captura de datos
-  - ### Qué significa capturar datos
-  - ### Fuentes de datos habituales
-  - ### Datos de entrada, resultados y estado
-  - ### Alcance y ciclo de vida
-  - ### Confiabilidad y procedencia
-- ## Capturar datos de Jenkins y de una ejecución
-  - ### Parámetros con `params`
-  - ### Variables de entorno con `env`
-  - ### Respuestas con `input`
-  - ### Información de `currentBuild`
-  - ### Datos de SCM y del agente
-- ## Capturar datos de comandos y archivos
-  - ### Salida estándar con `returnStdout`
-  - ### Códigos de salida con `returnStatus`
-  - ### Lectura de archivos con `readFile`
-  - ### Propiedades, JSON y YAML
-  - ### Informes y artefactos
-  - ### Datos entre etapas
-- ## Validación, seguridad y prácticas
-  - ### Normalizar y validar valores
-  - ### Evitar inyección y exposición
-  - ### Diagnóstico de problemas
-  - ### Sesiones prácticas
-  - ### Evaluación, checklist y glosario
-
 ---
 
 ## Fundamentos de la captura de datos

@@ -6,55 +6,6 @@ El alumnado comprobará la versión de Ansible, validará el inventario y la sin
 
 > **Límite de seguridad:** esta práctica no configura hosts remotos, no usa `become`, no instala paquetes, no reinicia servicios y no utiliza claves SSH. No añadas destinos reales ni credenciales a los ejemplos. Para administrar servidores reales se requiere autorización, inventario aprobado, autenticación protegida y una revisión de cambios.
 
-## Esquema de la página
-
-- ## Objetivos y alcance
-  - ### Resultados de aprendizaje
-  - ### Qué se construirá
-  - ### Qué no se hará
-  - ### Requisitos previos
-- ## Conceptos de Ansible y Jenkins
-  - ### Inventario, playbook y tareas
-  - ### Módulos e idempotencia
-  - ### Controlador Ansible y agente Jenkins
-  - ### Modo de comprobación
-- ## Preparación del laboratorio
-  - ### Estructura del repositorio
-  - ### Inventario local
-  - ### Playbook de laboratorio
-  - ### Prueba local
-- ## Preparar Jenkins
-  - ### Agente y herramientas
-  - ### Job desde SCM
-  - ### Permisos y variables
-- ## Construir el pipeline
-  - ### Verificar Ansible
-  - ### Validar inventario
-  - ### Comprobar sintaxis
-  - ### Listar hosts
-  - ### Ejecutar en modo de comprobación
-  - ### Ejecutar el playbook local
-  - ### Archivar un resultado seguro
-- ## Sesiones prácticas
-  - ### Explorar Ansible
-  - ### Crear el inventario y el playbook
-  - ### Integrar Ansible en Jenkins
-  - ### Probar idempotencia y fallos
-  - ### Revisar seguridad
-  - ### Proyecto integrador
-- ## Uso de Ansible en entornos reales
-  - ### Acceso remoto
-  - ### SSH y credenciales
-  - ### Privilegios y `become`
-  - ### Inventarios y entornos
-  - ### Aprobación y control de cambios
-- ## Diagnóstico y evaluación
-  - ### Errores habituales
-  - ### Checklist
-  - ### Rúbrica
-  - ### Preguntas y glosario
-  - ### Síntesis y entrega
-
 ---
 
 ## Objetivos y alcance

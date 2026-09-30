@@ -6,45 +6,6 @@ Esta unidad explica cómo diseñar esas pausas con el paso `input` y la directiv
 
 > **Uso seguro:** ejecuta los ejemplos solo en una instancia de laboratorio. No apruebes cambios ni despliegues en producción desde estas prácticas. Una persona autorizada debe revisar cualquier flujo que utilice credenciales o modifique sistemas. Una aprobación de Jenkins es un control de flujo, no una garantía de que la acción sea segura.
 
-## Esquema de la página
-
-- ## Fundamentos de la interacción
-  - ### Qué es un pipeline interactivo
-  - ### Parámetros iniciales e interacción en tiempo de ejecución
-  - ### Aprobación, decisión y cancelación
-  - ### Cuándo conviene pedir intervención
-- ## El paso `input`
-  - ### Sintaxis básica
-  - ### Mensaje, botón y parámetros
-  - ### Restricción por persona o grupo
-  - ### Capturar quién respondió
-- ## Pausas y tiempos de espera
-  - ### Qué ocurre mientras espera Jenkins
-  - ### `timeout`
-  - ### Cancelación y aborto
-  - ### Manejo seguro de respuestas
-- ## Patrones de diseño
-  - ### Aprobación antes de una etapa
-  - ### Selección entre opciones limitadas
-  - ### Separar validación de aprobación
-  - ### Evitar esperas innecesarias
-- ## Seguridad y operación
-  - ### Autorización de aprobaciones
-  - ### Riesgos de credenciales y ramas
-  - ### Auditoría y trazabilidad
-  - ### Accesibilidad y mensajes claros
-- ## Sesiones prácticas
-  - ### Localizar una solicitud de entrada
-  - ### Aprobar una etapa de laboratorio
-  - ### Elegir una opción
-  - ### Probar timeout y cancelación
-  - ### Diseñar un flujo con revisión
-- ## Diagnóstico y evaluación
-  - ### Errores frecuentes
-  - ### Checklist
-  - ### Preguntas y ejercicios
-  - ### Glosario y síntesis
-
 ## Fundamentos de la interacción
 
 Un pipeline interactivo se detiene en un punto definido para esperar una respuesta o una aprobación.

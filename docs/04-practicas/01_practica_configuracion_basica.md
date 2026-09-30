@@ -6,53 +6,6 @@ El objetivo no es configurar una instancia de producción desde cero ni modifica
 
 > **Seguridad:** no compartas contraseñas, tokens ni archivos de credenciales en el repositorio, el `Jenkinsfile`, la consola o las capturas. No desactives la autenticación ni abras Jenkins a Internet para facilitar la práctica. Los cambios en instancias compartidas requieren autorización del administrador.
 
-## Esquema de la página
-
-- ## Objetivos y alcance
-  - ### Resultados de aprendizaje
-  - ### Qué se configurará
-  - ### Qué no se hará
-- ## Conceptos básicos
-  - ### Jenkins y sus componentes
-  - ### Controlador, agente y job
-  - ### Interfaz, consola e historial
-- ## Preparación del laboratorio
-  - ### Requisitos
-  - ### Datos de la instancia
-  - ### Reglas de seguridad
-- ## Primer acceso
-  - ### Asistente de configuración inicial
-  - ### Cuenta administrativa
-  - ### URL de Jenkins
-  - ### Comprobaciones iniciales
-- ## Configuración básica de la instancia
-  - ### Plugins
-  - ### Herramientas globales
-  - ### Nodos y agentes
-  - ### Credenciales de laboratorio
-  - ### Seguridad de acceso
-  - ### Ubicación y zona horaria
-- ## Primer job
-  - ### Crear un job Freestyle
-  - ### Ejecutar una comprobación
-  - ### Revisar consola e historial
-  - ### Modificar y volver a ejecutar
-- ## Primer pipeline
-  - ### Crear un `Jenkinsfile`
-  - ### Etapas, pasos y resultado
-  - ### Pipeline desde SCM
-- ## Sesiones prácticas
-  - ### Exploración guiada
-  - ### Crear un job
-  - ### Configurar un pipeline
-  - ### Diagnosticar fallos
-  - ### Revisar seguridad
-- ## Mantenimiento y diagnóstico
-  - ### Logs y errores habituales
-  - ### Copias de seguridad y actualizaciones
-  - ### Checklist y evaluación
-  - ### Glosario y síntesis
-
 ---
 
 ## Objetivos y alcance

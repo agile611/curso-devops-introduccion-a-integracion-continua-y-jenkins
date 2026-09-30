@@ -6,45 +6,6 @@ La distribución requiere más que añadir agentes: hay que decidir qué ejecuta
 
 > **Uso seguro:** practica únicamente en una instancia, repositorio y agentes autorizados. Los ejemplos no despliegan a producción ni requieren credenciales. Trata cualquier `Jenkinsfile` como código ejecutable y no incluyas secretos en archivos, parámetros, comandos o logs.
 
-## Esquema de la página
-
-- ## Fundamentos del pipeline distribuido
-  - ### Qué significa distribuir un pipeline
-  - ### Controlador, agente, nodo y ejecutor
-  - ### Cuándo conviene distribuir
-  - ### Qué no resuelve la distribución
-- ## Diseño de la ejecución
-  - ### Agente global y agente por etapa
-  - ### Etiquetas y selección
-  - ### Concurrencia y recursos
-  - ### Orden, dependencias y paralelismo
-- ## Transferencia de archivos
-  - ### Workspace
-  - ### `stash` y `unstash`
-  - ### Artefactos
-  - ### Cachés y almacenamiento externo
-- ## Implementación declarativa
-  - ### `agent none`
-  - ### Etapas en agentes distintos
-  - ### Etapas paralelas
-  - ### Manejo de fallos y resultados
-- ## Seguridad y operación
-  - ### Permisos y confianza
-  - ### Red y credenciales
-  - ### Aislamiento y limpieza
-  - ### Observabilidad y diagnóstico
-- ## Sesiones prácticas
-  - ### Inspeccionar agentes
-  - ### Ejecutar en dos agentes
-  - ### Compartir archivos
-  - ### Probar paralelismo
-  - ### Diagnosticar fallos
-- ## Evaluación
-  - ### Checklist
-  - ### Preguntas
-  - ### Glosario
-  - ### Síntesis
-
 ## Fundamentos del pipeline distribuido
 
 Un pipeline distribuido coordina trabajo que se ejecuta en uno o más agentes, posiblemente en sistemas distintos.
