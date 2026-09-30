@@ -6,8 +6,6 @@ Aprende los fundamentos de **DevOps** y la integración continua con **Jenkins**
 **Entorno:** Ubuntu 24.04.5 LTS  
 **Autor:** Guillem Hernández Sola · Agile611
 
-[Comenzar el curso](00-el-curso/00-00-index.md){ .md-button .md-button--primary }
-
 ## Contenido
 
 - **Fundamentos:** DevOps, CI/CD y primeros jobs de Jenkins.
