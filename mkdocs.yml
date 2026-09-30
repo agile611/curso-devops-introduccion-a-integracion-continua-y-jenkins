@@ -93,36 +93,57 @@ nav:
       - Objetivos del curso: 00-el-curso/00-01-objetivos.md
       - Requisitos previos: 00-el-curso/00-02-requisitos-previos.md
   - Fundamentos:
-      - Introducción a DevOps y la integración continua: 01-fundamentos/01_introduccion_devops.md
-      - Arquitectura Jenkins: 01-fundamentos/02_architectura_jenkins.md
-      - Pipelines: 01-fundamentos/03_pipelines.md
-      - Node: 01-fundamentos/04_node.md
-      - Agent: 01-fundamentos/05_agent.md
-      - Parameters: 01-fundamentos/06_parameters.md
-      - Environment: 01-fundamentos/07_environment.md
-      - Options: 01-fundamentos/08_options.md
-      - Stages: 01-fundamentos/09_stages.md
-      - Stage: 01-fundamentos/10_stage.md
-      - Step: 01-fundamentos/11_step.md
-      - Script: 01-fundamentos/12_script.md
-      - Jobs: 01-fundamentos/13_jobs.md
-      - Instalando Git y GitHub Plugin: 01-fundamentos/14_instalando_git_y_github_plugin.md
-      - Creando nuestros primeros pipelines: 01-fundamentos/15_creando_nuestros_primeros_pipelines.md
-      - Integración con Terraform: 01-fundamentos/16_integracion_con_terraform.md
-      - Integración con Ansible: 01-fundamentos/17_integracion_con_ansible.md
+      - ¿Quién es DevOps?: 01-fundamentos/01_quien_es_devops.md
+      - CI vs. CD vs. CD: 01-fundamentos/02_ci_vs_cd_vs_cd.md
+      - Entorno de trabajo: 01-fundamentos/03_entorno_de_trabajo.md
+      - Repositorio de código: 01-fundamentos/04_repositorio_de_codigo.md
+      - Arquitectura y instalación: 01-fundamentos/05_architectura_y_instalacion.md
+      - Conclusiones DevOps y CI/CD: 01-fundamentos/06_conclusiones_devops_y_ci_cd.md
+      - ¿Qué es un job de Jenkins?: 01-fundamentos/07_que_es_un_job_de_jenkins.md
+      - El primer job (Freestyle): 01-fundamentos/08_el_primer_job_freestyle.md
+      - ¿Qué es un Agente (Node) en Jenkins?: 01-fundamentos/09_que_es_un_agente_node.md
+      - Conectando un Agente: 01-fundamentos/10_conectando_un_agente.md
+      - ¿Qué es un Pipeline de Jenkins?: 01-fundamentos/11_que_es_un_pipeline.md
+      - El primer pipeline: 01-fundamentos/12_el_primer_pipeline.md
+  - Pipelines:
+      - Anatomía de un Jenkinsfile: 02-pipelines/01_anatomia_de_un_jenkinsfile.md
+      - Pipeline Distribuido: 02-pipelines/02_pipeline_distribuido.md
+      - ¿Por qué hacer servir el SCM para los Jenkinsfile?: 02-pipelines/03_scm_y_jenkinsfile.md
+      - De local a Jenkins: 02-pipelines/04_de_local_a_jenkins.md
+      - Parámetros y variables de entorno: 02-pipelines/05_parametros_y_variables.md
+      - Pipeline Interactivo: 02-pipelines/06_pipeline_interactivo.md
+      - Options, Post & Notifications: 02-pipelines/07_options_post_notifications.md
+      - Control de errores (Timeout): 02-pipelines/08_control_de_errores.md
+      - El bloque script: 02-pipelines/09_el_bloque_script.md
+      - Capturando datos: 02-pipelines/10_capturando_datos.md
+      - Construcción completa de una aplicación: 02-pipelines/11_construccion_completa.md
+  - Miscelánea:
+      - Configuración de agentes efímeros (Docker Cloud): 03-miscelania/01_configuracion_agentes_efimeros.md
+  - Terraform:
+      - ¿Por qué Terraform?: 04-terraform/01_por_que_terraform.md
+      - Preparación del entorno: 04-terraform/02_preparacion_del_entorno.md
+      - Gestión de credenciales: 04-terraform/03_gestion_de_credenciales.md
+      - Un secreto simulado: 04-terraform/04_pipeline_stage_init_plan.md
+      - Creando el plan: 04-terraform/05_creando_el_plan.md
+      - Aprobación manual: 04-terraform/06_pipeline_stage_apply_human_approval.md
+      - Modificando la Infraestructura: 04-terraform/07_modificando_la_infraestructura.md
+  - Ansible:
+      - ¿Por qué Ansible?: 05-ansible/01_por_que_ansible.md
+      - El tu primer playbook: 05-ansible/02_el_primer_playbook.md
+      - Orquestación completa: 05-ansible/03_orquestacion_completa.md
   - Prácticas:
-      - Configuración básica: 02-practicas/01_practica_configuracion_basica.md
-      - Creación de pipelines: 02-practicas/02_practica_creacion_pipelines.md
-      - Integración con Terraform: 02-practicas/03_practica_integracion_terraform.md
-      - Integración con Ansible: 02-practicas/04_practica_integracion_ansible.md
+      - Configuración básica: 04-practicas/01_practica_configuracion_basica.md
+      - Creación de pipelines: 04-practicas/02_practica_creacion_pipelines.md
+      - Integración con Terraform: 04-practicas/03_practica_integracion_terraform.md
+      - Integración con Ansible: 04-practicas/04_practica_integracion_ansible.md
   - Avanzado:
       - Mejores prácticas: 03-avanzado/01_mejores_practicas.md
       - Seguridad en Jenkins: 03-avanzado/02_seguridad_en_jenkins.md
       - Monitorización y alertas: 03-avanzado/03_monitorizacion_y_alertas.md
       - Optimización de pipelines: 03-avanzado/04_optimizacion_de_pipelines.md
   - Referencias:
-      - Documentación oficial: 04-referencias/01_documentacion_oficial.md
-      - Recursos útiles: 04-referencias/02_recursos_utiles.md
-      - Glosario de términos: 04-referencias/03_glosario_de_terminos.md
+      - Documentación oficial: 06-referencias/01_documentacion_oficial.md
+      - Recursos útiles: 06-referencias/02_recursos_utiles.md
+      - Glosario de términos: 06-referencias/03_glosario_de_terminos.md
 
 copyright: "© Agile611 · Licencia CC BY-NC 4.0 · Guillem Hernández Sola"
