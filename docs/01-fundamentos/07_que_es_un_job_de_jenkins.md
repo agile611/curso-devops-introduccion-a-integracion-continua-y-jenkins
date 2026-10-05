@@ -122,6 +122,9 @@ Puede ser:
 
 No supongas que los comandos se ejecutan en tu equipo local. Comprueba qué agente utiliza el job.
 
+!!! note "¿Qué puede ser un agente"
+    Para ser un agente solo se necesita la capacidad de ejecutar java y tener conectividad de red hacia el nodo controlador de Jenkins.
+
 ### Workspace
 
 El **workspace** es el directorio de trabajo que Jenkins utiliza durante una ejecución.
