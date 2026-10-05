@@ -106,6 +106,9 @@ También puedes comprobar qué ejecutable utiliza la terminal:
 !!! note "Compatibilidad de Java"
     Jenkins actualiza periódicamente sus requisitos de Java. Antes de instalarlo en otro entorno, comprueba la versión requerida por la versión LTS que vas a utilizar en la documentación oficial de Jenkins.
 
+!!! node "Si ya existe un Java instalado"
+    Por si ya existe un Java instalado, podéis seleccionar el Java por defecto con este comando `sudo update-alternatives --config java`
+
 ## 3. Añadir el repositorio oficial de Jenkins
 
 Se utilizará el repositorio de paquetes **LTS** de Jenkins, en lugar de descargar un paquete manualmente. Así, Jenkins podrá actualizarse mediante el sistema habitual de paquetes de Ubuntu.
