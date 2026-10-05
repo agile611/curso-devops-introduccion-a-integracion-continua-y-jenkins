@@ -325,7 +325,8 @@ La preparación de una entrega puede estar automatizada, mientras que la decisi�
 
 El **despliegue continuo** (*Continuous Deployment*) automatiza la publicación de cada cambio que supera las verificaciones establecidas.
 
-No todos los equipos ni todos los productos necesitan desplegar automáticamente cada cambio. La estrategia depende del riesgo, los requisitos regulatorios, la arquitectura y la capacidad de observar y revertir cambios.
+!!! note "Despliegue continuo no es para todos los equipos"
+    No todos los equipos ni todos los productos necesitan desplegar automáticamente cada cambio. La estrategia depende del riesgo, los requisitos regulatorios, la arquitectura y la capacidad de observar y revertir cambios.
 
 ### Cómo se relacionan
 
