@@ -4,7 +4,8 @@ Un **job de Jenkins** es una unidad de trabajo configurada para ejecutar una tar
 
 En esta unidad aprenderás qué contiene un job, cómo se ejecuta y cómo interpretar sus resultados. También crearás jobs de práctica, provocarás fallos controlados y compararás un job tradicional con un pipeline definido como código.
 
-> **Entorno de práctica:** utiliza únicamente la instancia de Jenkins asignada por el curso. No crees jobs, modifiques credenciales ni ejecutes comandos en una instancia compartida sin autorización. Los ejemplos están pensados para un laboratorio aislado.
+!!! note "Entorno de práctica" 
+    Utiliza únicamente la instancia de Jenkins asignada por el curso. No crees jobs, modifiques credenciales ni ejecutes comandos en una instancia compartida sin autorización. Los ejemplos están pensados para un laboratorio aislado.
 
 ## Objetivos de aprendizaje
 
