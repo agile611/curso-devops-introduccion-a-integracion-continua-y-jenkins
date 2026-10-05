@@ -35,7 +35,7 @@ Primero verifica la versión del sistema operativo y aplica las actualizaciones 
 ### Sesión de terminal
 
 ```console
-alumno@jenkins-lab:~$ lsb_release -a
+ lsb_release -a
 No LSB modules are available.
 Distributor ID: Ubuntu
 Description:    Ubuntu 24.04.5 LTS
@@ -48,8 +48,8 @@ El texto exacto puede variar ligeramente. Lo importante es confirmar que el sist
 Actualiza el índice de paquetes e instala las actualizaciones:
 
 ```console
-alumno@jenkins-lab:~$ sudo apt update
-alumno@jenkins-lab:~$ sudo apt upgrade -y
+ sudo apt update
+ sudo apt upgrade -y
 ```
 
 Es posible que Ubuntu solicite la contraseña del usuario. Al escribirla, la terminal no mostrará caracteres; es el comportamiento habitual.
@@ -57,7 +57,7 @@ Es posible que Ubuntu solicite la contraseña del usuario. Al escribirla, la ter
 Reinicia el sistema si la actualización lo requiere:
 
 ```console
-alumno@jenkins-lab:~$ sudo reboot
+ sudo reboot
 ```
 
 ### Comprobación
@@ -65,7 +65,7 @@ alumno@jenkins-lab:~$ sudo reboot
 Después del reinicio, abre una terminal y comprueba que puedes volver a iniciar sesión:
 
 ```console
-alumno@jenkins-lab:~$ whoami
+ whoami
 alumno
 ```
 
@@ -76,13 +76,13 @@ Jenkins necesita Java para ejecutarse. En esta guía se instala **OpenJDK 21**, 
 ### Instalar el entorno de ejecución
 
 ```console
-alumno@jenkins-lab:~$ sudo apt install -y fontconfig openjdk-21-jre
+ sudo apt install -y fontconfig openjdk-21-jre
 ```
 
 Comprueba la versión instalada:
 
 ```console
-alumno@jenkins-lab:~$ java -version
+ java -version
 openjdk version "21..."
 ```
 
@@ -93,13 +93,13 @@ La salida incluirá información adicional sobre la versión y el fabricante de 
 Si el comando `java` no existe, revisa que la instalación haya terminado correctamente:
 
 ```console
-alumno@jenkins-lab:~$ dpkg -l openjdk-21-jre
+ dpkg -l openjdk-21-jre
 ```
 
 También puedes comprobar qué ejecutable utiliza la terminal:
 
 ```console
-alumno@jenkins-lab:~$ which java
+ which java
 /usr/bin/java
 ```
 
@@ -113,19 +113,19 @@ Se utilizará el repositorio de paquetes **LTS** de Jenkins, en lugar de descarg
 ### Instalar herramientas necesarias
 
 ```console
-alumno@jenkins-lab:~$ sudo apt install -y curl gnupg
+ sudo apt install -y curl gnupg
 ```
 
 Crea el directorio para almacenar claves de repositorios:
 
 ```console
-alumno@jenkins-lab:~$ sudo install -d -m 0755 /etc/apt/keyrings
+ sudo install -d -m 0755 /etc/apt/keyrings
 ```
 
 Descarga la clave de firma del repositorio oficial:
 
 ```console
-alumno@jenkins-lab:~$ sudo curl -fsSL \
+ sudo curl -fsSL \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key \
   -o /etc/apt/keyrings/jenkins-keyring.asc
 ```
@@ -133,20 +133,20 @@ alumno@jenkins-lab:~$ sudo curl -fsSL \
 Añade el repositorio LTS:
 
 ```console
-alumno@jenkins-lab:~$ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/" \
+ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/" \
   | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
 ```
 
 Actualiza la lista de paquetes para incluir Jenkins:
 
 ```console
-alumno@jenkins-lab:~$ sudo apt update
+ sudo apt update
 ```
 
 ### Comprobar que Ubuntu encuentra Jenkins
 
 ```console
-alumno@jenkins-lab:~$ apt policy jenkins
+ apt policy jenkins
 ```
 
 La salida debe mostrar información sobre el paquete `jenkins` y una versión candidata. Si no aparece ninguna versión candidata, revisa la URL del repositorio y la salida de `sudo apt update`.
@@ -156,13 +156,13 @@ La salida debe mostrar información sobre el paquete `jenkins` y una versión ca
 Instala Jenkins utilizando `apt`:
 
 ```console
-alumno@jenkins-lab:~$ sudo apt install -y jenkins
+ sudo apt install -y jenkins
 ```
 
 El paquete configura un servicio de `systemd`. Comprueba su estado:
 
 ```console
-alumno@jenkins-lab:~$ sudo systemctl status jenkins
+ sudo systemctl status jenkins
 ```
 
 Busca una línea similar a:
@@ -178,20 +178,20 @@ Pulsa `q` para salir de la vista de estado.
 El paquete suele iniciar y habilitar el servicio durante la instalación. Puedes verificarlo explícitamente con:
 
 ```console
-alumno@jenkins-lab:~$ sudo systemctl enable --now jenkins
+ sudo systemctl enable --now jenkins
 ```
 
 Comprueba el estado otra vez:
 
 ```console
-alumno@jenkins-lab:~$ systemctl is-active jenkins
+ systemctl is-active jenkins
 active
 ```
 
 Y confirma que se iniciará automáticamente al arrancar el sistema:
 
 ```console
-alumno@jenkins-lab:~$ systemctl is-enabled jenkins
+ systemctl is-enabled jenkins
 enabled
 ```
 
@@ -200,7 +200,7 @@ enabled
 Jenkins utiliza el puerto TCP **8080** de forma predeterminada:
 
 ```console
-alumno@jenkins-lab:~$ sudo ss -ltnp | grep 8080
+ sudo ss -ltnp | grep 8080
 ```
 
 Si el servicio está funcionando, deberías ver una entrada asociada al puerto `8080`. La salida concreta depende del sistema.
@@ -222,7 +222,7 @@ http://DIRECCION_IP_DEL_SERVIDOR:8080
 Para consultar las direcciones IP disponibles:
 
 ```console
-alumno@jenkins-lab:~$ hostname -I
+ hostname -I
 192.168.1.50
 ```
 
@@ -240,7 +240,7 @@ La primera vez que abras Jenkins, aparecerá la pantalla de desbloqueo.
 En una terminal del servidor, ejecuta:
 
 ```console
-alumno@jenkins-lab:~$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
 Copia el valor mostrado e introdúcelo en la página de Jenkins.
@@ -271,20 +271,20 @@ Una vez dentro de Jenkins, comprueba que puedes navegar por la interfaz y que el
 ### Comprobación desde la terminal
 
 ```console
-alumno@jenkins-lab:~$ sudo systemctl is-active jenkins
+ sudo systemctl is-active jenkins
 active
 ```
 
 Consulta la versión del paquete instalado:
 
 ```console
-alumno@jenkins-lab:~$ apt policy jenkins
+ apt policy jenkins
 ```
 
 Comprueba que la interfaz web responde desde la máquina Ubuntu:
 
 ```console
-alumno@jenkins-lab:~$ curl -I http://localhost:8080
+ curl -I http://localhost:8080
 ```
 
 Una respuesta HTTP como `200`, `403` o una redirección indica que hay un servicio web respondiendo. El código exacto puede variar según la pantalla o configuración de Jenkins.
@@ -296,15 +296,15 @@ Estos comandos permiten consultar el servicio y revisar sus registros durante la
 ### Consultar el estado
 
 ```console
-alumno@jenkins-lab:~$ sudo systemctl status jenkins
+ sudo systemctl status jenkins
 ```
 
 ### Iniciar, detener o reiniciar Jenkins
 
 ```console
-alumno@jenkins-lab:~$ sudo systemctl start jenkins
-alumno@jenkins-lab:~$ sudo systemctl stop jenkins
-alumno@jenkins-lab:~$ sudo systemctl restart jenkins
+ sudo systemctl start jenkins
+ sudo systemctl stop jenkins
+ sudo systemctl restart jenkins
 ```
 
 Después de reiniciar el servicio, espera unos segundos y vuelve a abrir la página en el navegador.
@@ -312,13 +312,13 @@ Después de reiniciar el servicio, espera unos segundos y vuelve a abrir la pág
 ### Consultar los registros recientes
 
 ```console
-alumno@jenkins-lab:~$ sudo journalctl -u jenkins -n 50 --no-pager
+ sudo journalctl -u jenkins -n 50 --no-pager
 ```
 
 Para seguir los registros en tiempo real:
 
 ```console
-alumno@jenkins-lab:~$ sudo journalctl -u jenkins -f
+ sudo journalctl -u jenkins -f
 ```
 
 Pulsa `Ctrl+C` para dejar de seguir el registro.
@@ -332,9 +332,9 @@ Realiza estas actividades después de completar la instalación. Anota los resul
 Ejecuta los comandos y registra la versión de Ubuntu, la versión de Java y la dirección IP del servidor:
 
 ```console
-alumno@jenkins-lab:~$ lsb_release -a
-alumno@jenkins-lab:~$ java -version
-alumno@jenkins-lab:~$ hostname -I
+ lsb_release -a
+ java -version
+ hostname -I
 ```
 
 **Resultado esperado:** identificar qué sistema operativo y versión de Java utiliza el laboratorio, y qué dirección usar para acceder a Jenkins desde otro equipo de la red.
@@ -344,8 +344,8 @@ alumno@jenkins-lab:~$ hostname -I
 Ejecuta:
 
 ```console
-alumno@jenkins-lab:~$ systemctl is-active jenkins
-alumno@jenkins-lab:~$ systemctl is-enabled jenkins
+ systemctl is-active jenkins
+ systemctl is-enabled jenkins
 ```
 
 **Resultado esperado:** el servicio aparece como activo y habilitado para iniciarse con el sistema.
@@ -353,9 +353,9 @@ alumno@jenkins-lab:~$ systemctl is-enabled jenkins
 ### Práctica 3: reiniciar Jenkins y revisar los registros
 
 ```console
-alumno@jenkins-lab:~$ sudo systemctl restart jenkins
-alumno@jenkins-lab:~$ sudo systemctl status jenkins
-alumno@jenkins-lab:~$ sudo journalctl -u jenkins -n 20 --no-pager
+ sudo systemctl restart jenkins
+ sudo systemctl status jenkins
+ sudo journalctl -u jenkins -n 20 --no-pager
 ```
 
 **Resultado esperado:** Jenkins vuelve a estar activo después del reinicio. Identifica en los registros cualquier mensaje informativo o error.
@@ -378,14 +378,14 @@ Si Jenkins no inicia o no puedes acceder a la interfaz, revisa estos puntos en o
 Comprueba el estado y los registros:
 
 ```console
-alumno@jenkins-lab:~$ sudo systemctl status jenkins
-alumno@jenkins-lab:~$ sudo journalctl -u jenkins -n 100 --no-pager
+ sudo systemctl status jenkins
+ sudo journalctl -u jenkins -n 100 --no-pager
 ```
 
 Verifica también que Java está disponible:
 
 ```console
-alumno@jenkins-lab:~$ java -version
+ java -version
 ```
 
 ### El navegador no puede abrir la página
@@ -393,13 +393,13 @@ alumno@jenkins-lab:~$ java -version
 Comprueba que el servicio está activo:
 
 ```console
-alumno@jenkins-lab:~$ sudo systemctl is-active jenkins
+ sudo systemctl is-active jenkins
 ```
 
 Comprueba si el puerto 8080 está escuchando:
 
 ```console
-alumno@jenkins-lab:~$ sudo ss -ltnp | grep 8080
+ sudo ss -ltnp | grep 8080
 ```
 
 Si accedes desde otro equipo, verifica que:
@@ -413,8 +413,8 @@ Si accedes desde otro equipo, verifica que:
 Actualiza la información de paquetes y revisa la configuración del repositorio:
 
 ```console
-alumno@jenkins-lab:~$ sudo apt update
-alumno@jenkins-lab:~$ cat /etc/apt/sources.list.d/jenkins.list
+ sudo apt update
+ cat /etc/apt/sources.list.d/jenkins.list
 ```
 
 El archivo debe apuntar al repositorio LTS de Jenkins. Si `apt update` muestra errores de clave o de conexión, consulta la documentación oficial para confirmar la configuración vigente.
@@ -424,7 +424,7 @@ El archivo debe apuntar al repositorio LTS de Jenkins. Si `apt update` muestra e
 Un primer inicio puede tardar mientras Jenkins termina la configuración y carga los plugins. Consulta los registros para distinguir una demora de un fallo:
 
 ```console
-alumno@jenkins-lab:~$ sudo journalctl -u jenkins -f
+ sudo journalctl -u jenkins -f
 ```
 
 ## 11. Limpieza y seguridad del laboratorio
