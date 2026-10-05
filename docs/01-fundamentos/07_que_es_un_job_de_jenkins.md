@@ -123,7 +123,7 @@ Puede ser:
 No supongas que los comandos se ejecutan en tu equipo local. Comprueba qué agente utiliza el job.
 
 !!! note "¿Qué puede ser un agente"
-    Para ser un agente solo se necesita la capacidad de ejecutar java y tener conectividad de red hacia el nodo controlador de Jenkins.
+    Para ser un agente solo se necesita la capacidad de ejecutar `Java`, un `SSH server` y tener `conectividad de red` hacia el nodo controlador de Jenkins.
 
 ### Workspace
 
