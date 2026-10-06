@@ -391,7 +391,9 @@ La práctica empieza con un comando que solo escribe texto en la consola.
 ### Comando inicial
 
 ```bash
+sleep 10
 echo "Primer job Freestyle del curso"
+sleep 10
 ```
 
 Este comando no instala nada ni modifica archivos.
