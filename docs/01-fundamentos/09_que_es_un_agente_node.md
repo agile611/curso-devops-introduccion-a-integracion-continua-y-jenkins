@@ -80,7 +80,8 @@ Un **ejecutor** representa una capacidad de un nodo para ejecutar una tarea.
 
 Si un nodo tiene más de un ejecutor, puede admitir varias ejecuciones simultáneas.
 
-Eso no significa que siempre convenga aumentar el número de ejecutores. Las tareas simultáneas compiten por recursos y pueden compartir archivos, servicios o datos.
+!!! note "Sobre el número de ejecutores"
+    Eso no significa que siempre convenga aumentar el número de ejecutores. Las tareas simultáneas compiten por recursos y pueden compartir archivos, servicios o datos.
 
 ### Workspace
 
