@@ -558,6 +558,37 @@ Una etapa puede ejecutarse solo si un parámetro tiene un valor específico.
 
 Limita las opciones para que un parámetro no habilite accidentalmente una operación peligrosa.
 
+Aqui viene un ejemplo para ver una condición con parámetros:
+
+```groovy
+pipeline {
+    agent any
+    parameters {
+        choice(name: 'CHOICE', choices: ['master', 'production', 'develop'], description: 'Pick a branch')
+    }
+    stages {
+        stage('Checkout'){
+            steps{
+                git branch: params.CHOICE, url: 'https://github.com/Gromenaware/simple-maven-spring-boot-example.git'
+            }
+        }
+        stage('Example Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Example Deploy Production') {
+            when {
+                equals expected: 'production', actual: params.CHOICE
+            }
+            steps {
+                echo 'Deploying production'
+            }
+        }
+    }
+}
+```
+
 ### Saltar etapas no equivale a validar
 
 Si una etapa no se ejecuta por una condición, eso no significa que haya pasado.
