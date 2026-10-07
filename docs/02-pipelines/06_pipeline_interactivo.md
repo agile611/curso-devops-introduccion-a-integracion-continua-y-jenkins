@@ -1462,6 +1462,9 @@ pipeline {
 
 Sustituye `GRUPO_AUTORIZADO` solo con el valor facilitado por el administrador.
 
+!!!note "Importante para que funcione el ejemplo"
+    Para que esto vaya con usuarios concretos, se necesita el plugin `Role-based Authorization Strategy`
+
 #### Instrucciones
 
 1. Comprueba que el grupo o usuario existe.
