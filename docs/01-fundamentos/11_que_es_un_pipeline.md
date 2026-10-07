@@ -200,6 +200,9 @@ Utiliza una etiqueta que exista y haya sido aprobada para la práctica.
 
 Si no hay nodos con esa etiqueta, el pipeline puede quedar en cola.
 
+!!! note "Referencia de la sintaxis del bloque agent"
+    La mejor fuente de sintaxis para agent es esta [url](https://www.jenkins.io/doc/book/pipeline/syntax/#agent)
+     
 ### Agente por etapa
 
 Un pipeline también puede asignar agentes en distintas etapas.
