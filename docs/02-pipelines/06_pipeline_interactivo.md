@@ -638,6 +638,46 @@ Si una ejecución ya no debe continuar, sigue el proceso de cancelación autoriz
 
 No dejes ejecuciones pendientes sin responsable.
 
+#### Ejemplo con un when
+
+```groovy
+pipeline {
+    agent any
+    parameters {
+        choice(
+            name: 'CHOICE',
+            choices: ['production', 'master', 'develop'],
+            description: 'Pick a branch'
+        )
+    }
+    stages {
+        stage('Checkout'){
+            steps{
+                git branch: params.CHOICE, url: 'https://github.com/Gromenaware/simple-maven-spring-boot-example.git'
+            }
+        }
+        stage('Example Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Example Deploy Production') {
+            when {
+                beforeInput true
+                equals expected: 'production', actual: params.CHOICE
+            }
+            input {
+                message 'Confirme que revisó la construcción que va a producción'
+                ok 'Continuar'
+            }
+            steps {
+                echo 'Deploying production'
+            }
+        }
+    }
+}
+```
+
 ## Patrones de diseño
 
 Los patrones siguientes muestran formas comunes de combinar automatización y revisión.
