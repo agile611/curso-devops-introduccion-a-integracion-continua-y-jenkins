@@ -201,7 +201,7 @@ Utiliza una etiqueta que exista y haya sido aprobada para la práctica.
 Si no hay nodos con esa etiqueta, el pipeline puede quedar en cola.
 
 !!! note "Referencia de la sintaxis del bloque agent"
-    La mejor fuente de sintaxis para agent es esta [url](https://www.jenkins.io/doc/book/pipeline/syntax/#agent)
+    La mejor fuente de sintaxis para `agent` es esta [url](https://www.jenkins.io/doc/book/pipeline/syntax/#agent)
      
 ### Agente por etapa
 
@@ -490,6 +490,9 @@ Antes de utilizar un valor:
 - Evita construir comandos inseguros.
 - No permitas que controle un destino real sin controles.
 - No aceptes rutas arbitrarias para operaciones destructivas.
+
+!!! note "Referencia de la sintaxis del bloque parameters"
+    La mejor fuente de sintaxis para `parameters` es esta [url](https://www.jenkins.io/doc/book/pipeline/syntax/#parameters)
 
 ## Condiciones y flujo de control
 
