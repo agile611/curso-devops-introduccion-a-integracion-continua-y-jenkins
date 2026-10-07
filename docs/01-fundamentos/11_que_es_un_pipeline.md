@@ -524,6 +524,34 @@ El comportamiento de `branch` puede variar según se trate de un pipeline normal
 
 Comprueba cómo Jenkins representa la rama en la instancia del curso.
 
+Aquí hay un ejemplo para ver exactamente el comportamiento de when:
+
+```groovy
+pipeline {
+    agent any
+    stages {
+        stage('Checkout'){
+            steps{
+                git branch: 'production', url: 'https://github.com/Gromenaware/simple-maven-spring-boot-example.git'
+            }
+        }
+        stage('Example Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Example Deploy') {
+            when {
+                expression { return env.BRANCH_NAME == 'production' || true } // O evaluar una variable/parámetro custom
+            }
+            steps {
+                echo 'Deploying'
+            }
+        }
+    }
+}
+```
+
 ### Condiciones por parámetros
 
 Una etapa puede ejecutarse solo si un parámetro tiene un valor específico.
