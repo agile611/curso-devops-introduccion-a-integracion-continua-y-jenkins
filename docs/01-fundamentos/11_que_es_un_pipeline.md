@@ -564,7 +564,11 @@ Aqui viene un ejemplo para ver una condición con parámetros:
 pipeline {
     agent any
     parameters {
-        choice(name: 'CHOICE', choices: ['master', 'production', 'develop'], description: 'Pick a branch')
+        choice(
+            name: 'CHOICE',
+            choices: ['production', 'master', 'develop'],
+            description: 'Pick a branch'
+        )
     }
     stages {
         stage('Checkout'){
