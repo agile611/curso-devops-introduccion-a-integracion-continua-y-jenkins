@@ -952,6 +952,7 @@ Los datos de inicio de sesión deben estar configurados según el plugin [`SSH A
 
 Imágenes disponibles que funcionan:
 - [Agente Debian 13](https://hub.docker.com/repository/docker/guillemhs/jenkins-debian-13-agent/general)
+- [Agente Alpine Light](https://hub.docker.com/repository/docker/guillemhs/jenkins-alpine-agent/general)
 
 
 ### Ejemplo de pipeline con un agente docker fungible
