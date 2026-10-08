@@ -950,7 +950,7 @@ Las plantillas ja tienen el puerto SSH mapeado del contenedor de Docker, normalm
 Las imagenes de Docker tienen instalado sshd, Java y el usuario Jenkins. En la imagen el `Remote File System Root` es `/home/jenkins`.
 Los datos de inicio de sesión deben estar configurados según el plugin [`SSH Agent Plugin`](https://plugins.jenkins.io/ssh-agent/).
 
-Imagenes disponibles que funcionan:
+Imágenes disponibles que funcionan:
 - [Agente Debian 13](https://hub.docker.com/repository/docker/guillemhs/jenkins-debian-13-agent/general)
 
 ### Etiqueta `docker-slave`
