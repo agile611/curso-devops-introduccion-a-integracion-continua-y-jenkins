@@ -488,6 +488,21 @@ Esto ayuda a ver cómo se define el servicio realmente.
 
 No asumas que la ruta es siempre `/lib/systemd/system/docker.service`.
 
+### Editar el fichero `/lib/systemd/system/docker.service`
+
+Entra el fichero `/lib/systemd/system/docker.service` y busca la linea que empiece con `ExecStart`. Luego tienes que escribir esto:
+
+```bash
+ExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:4243
+```
+
+Luego, salva el fichero y reinicia el servicio de docker
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
+
 ### Evitar editar directamente el archivo del paquete
 
 En vez de modificar directamente el archivo distribuido por el paquete, suele ser preferible un *drop-in* de `systemd`, si la administración del host lo permite.
