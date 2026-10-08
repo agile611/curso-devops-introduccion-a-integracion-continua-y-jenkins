@@ -953,6 +953,52 @@ Los datos de inicio de sesión deben estar configurados según el plugin [`SSH A
 Imágenes disponibles que funcionan:
 - [Agente Debian 13](https://hub.docker.com/repository/docker/guillemhs/jenkins-debian-13-agent/general)
 
+
+### Ejemplo de pipeline con un agente docker fungible
+
+Después de crear tu agente `debian-13-agent` en el cloud de Docker puedes ejecutar este pipeline:
+
+```groovy
+pipeline {
+    agent {
+        label 'debian-13-agent'
+    }
+
+    stages {
+        stage('Ejemplo01') {
+            steps {
+                echo 'Hola desde Jenkins'
+            }
+        }
+        stage('Ejemplo02') {
+            steps {
+                echo 'Hola desde Jenkins'
+            }
+        }
+        stage('Ejemplo03') {
+            steps {
+                echo 'Hola desde Jenkins'
+            }
+        }
+        stage('Ejemplo04') {
+            steps {
+                echo 'Hola desde Jenkins'
+            }
+        }
+        stage('Ejemplo05') {
+            steps {
+                echo 'Hola desde Jenkins'
+            }
+        }
+        stage('Ejemplo06') {
+            steps {
+                echo 'Hola desde Jenkins'
+            }
+        }
+    }
+}
+```
+
 ### Etiqueta `docker-slave`
 
 La práctica utiliza esta etiqueta:
