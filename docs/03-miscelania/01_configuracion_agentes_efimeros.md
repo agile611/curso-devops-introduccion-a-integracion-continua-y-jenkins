@@ -955,6 +955,7 @@ Imágenes disponibles que funcionan:
 - [Agente Alpine 3.24.2](https://hub.docker.com/repository/docker/guillemhs/jenkins-alpine-agent/general)
 - [Agente Ubuntu 26.04](https://hub.docker.com/repository/docker/guillemhs/jenkins-ubuntu-agent/general)
 - [Agente Terraform](https://hub.docker.com/repository/docker/guillemhs/jenkins-terraform-agent/general)
+- [Agente Ansible](https://hub.docker.com/repository/docker/guillemhs/jenkins-ansible-agent/general)
 
 
 ### Ejemplo de pipeline con un agente docker fungible
