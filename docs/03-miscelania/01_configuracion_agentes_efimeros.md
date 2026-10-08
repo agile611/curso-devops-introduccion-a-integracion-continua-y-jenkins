@@ -951,6 +951,7 @@ Las imagenes de Docker tienen instalado sshd, Java y el usuario Jenkins. En la i
 Los datos de inicio de sesión deben estar configurados según el plugin [`SSH Agent Plugin`](https://plugins.jenkins.io/ssh-agent/). Se debe inyectar la llave SSH con el usuario jenkins.
 
 Imágenes disponibles que funcionan:
+
 - [Agente Debian 13](https://hub.docker.com/repository/docker/guillemhs/jenkins-debian-13-agent/general)
 - [Agente Alpine 3.24.2](https://hub.docker.com/repository/docker/guillemhs/jenkins-alpine-agent/general)
 - [Agente Ubuntu 26.04](https://hub.docker.com/repository/docker/guillemhs/jenkins-ubuntu-agent/general)
