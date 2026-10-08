@@ -1,4 +1,4 @@
-# 01_por_que_ansible.md — Por qué usar Ansible
+Por qué usar Ansible
 
 Ansible automatiza tareas de configuración y operación en sistemas: instala paquetes, administra archivos, configura servicios, crea usuarios y coordina acciones en varios hosts. Su modelo basado en inventarios y playbooks permite describir tareas de forma legible y repetible, sin exigir que cada máquina administrada ejecute un agente permanente de Ansible.
 
