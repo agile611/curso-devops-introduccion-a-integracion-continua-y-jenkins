@@ -500,6 +500,7 @@ Luego, salva el fichero y reinicia el servicio de docker
 
 ```bash
 sudo systemctl daemon-reload
+sudo systemctl enable docker
 sudo systemctl restart docker
 ```
 
