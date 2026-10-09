@@ -1,5 +1,7 @@
 # Entorno virtual de Python
 .venv/
+.DS_Store
+.DS_store
 
 # Sitio generado por MkDocs
 site/
