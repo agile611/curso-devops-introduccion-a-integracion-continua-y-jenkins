@@ -76,7 +76,7 @@ Jenkins necesita Java para ejecutarse. En esta guía se instala **OpenJDK 21**, 
 ### Instalar el entorno de ejecución
 
 ```console
- sudo apt install -y fontconfig openjdk-21-jre
+ sudo apt install -y fontconfig openjdk-25-jre
 ```
 
 Comprueba la versión instalada:
@@ -93,7 +93,7 @@ La salida incluirá información adicional sobre la versión y el fabricante de 
 Si el comando `java` no existe, revisa que la instalación haya terminado correctamente:
 
 ```console
- dpkg -l openjdk-21-jre
+ dpkg -l openjdk-25-jre
 ```
 
 También puedes comprobar qué ejecutable utiliza la terminal:
