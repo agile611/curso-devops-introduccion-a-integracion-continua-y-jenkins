@@ -71,7 +71,7 @@ alumno
 
 ## 2. Instalar Java
 
-Jenkins necesita Java para ejecutarse. En esta guía se instala **OpenJDK 21**, disponible en Ubuntu 24.04.
+Jenkins necesita Java para ejecutarse. En esta guía se instala **OpenJDK 25**, disponible en Ubuntu 24.04.
 
 ### Instalar el entorno de ejecución
 
@@ -83,7 +83,7 @@ Comprueba la versión instalada:
 
 ```console
  java -version
-openjdk version "21..."
+openjdk version "25..."
 ```
 
 La salida incluirá información adicional sobre la versión y el fabricante de Java.
