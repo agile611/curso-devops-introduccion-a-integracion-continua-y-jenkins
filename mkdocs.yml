@@ -104,7 +104,7 @@ nav:
       - Instalación de Jenkins: 00-el-curso/00-03-instalacion-jenkins.md
 
   - Fundamentos:
-      - ¿Quién es DevOps?: 01-fundamentos/01_quien_es_devops.md
+      - ¿Qué es DevOps?: 01-fundamentos/01_quien_es_devops.md
       - CI, entrega continua y despliegue continuo: 01-fundamentos/02_ci_vs_cd_vs_cd.md
       - Entorno de trabajo: 01-fundamentos/03_entorno_de_trabajo.md
       - Repositorio de código: 01-fundamentos/04_repositorio_de_codigo.md
