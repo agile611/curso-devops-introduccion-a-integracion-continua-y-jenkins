@@ -1,30 +1,29 @@
-# Curso de DevOps Jenkins
+# Curso DevOps: Introducción a Jenkins
 
-Curso práctico de Grafana utilizando Ubuntu 24.04.5 LTS como entorno de laboratorio.
+Aprende los fundamentos de **DevOps** y la integración continua con **Jenkins**. Durante el curso crearás pipelines e integrarás herramientas como Git, Terraform, Ansible y Docker.
 
-## Duración
-
-- Duración total: 25 horas
-- Modalidad: [Pendiente]
-- Nivel: [Pendiente]
+- **Duración:** 4 días · 20 horas
+- **Entorno:** Ubuntu 24.04.5 LTS
+- **Nivel:** No se requiere experiencia previa con Jenkins, Terraform ni Ansible.
 
 ## Contenidos
 
-- Fundamentos de telemetría
-- Instalación y configuración de Grafana
-- Prometheus y Node Exporter
-- Dashboards y visualización
-- Anotaciones y alertas
-- Proyecto final
+- Fundamentos de DevOps e integración y entrega continuas (CI/CD).
+- Jobs, agentes y pipelines de Jenkins.
+- Jenkinsfile, parámetros, variables de entorno y gestión de errores.
+- Prácticas de integración con Terraform y Ansible.
 
-## Entorno
+## Requisitos previos
 
-- Ubuntu 24.04.5 LTS
-- Grafana: [Versión pendiente]
-- Prometheus: [Versión pendiente]
-- Node Exporter: [Versión pendiente]
+Se recomiendan conocimientos básicos de Linux, línea de comandos y Git.
 
-## 👤 Autor
+## Documentación
+
+Consulta el [curso completo](https://docs.agile611.com/curso-devops-introduccion-a-integracion-continua-y-jenkins/).
+
+## Licencia y autoría
+
+Curso de **Guillem Hernández Sola · Agile611**, distribuido bajo la licencia **CC BY-NC 4.0**.
 
 [Guillem Hernández Sola](https://www.linkedin.com/in/guillemhs/)
 
