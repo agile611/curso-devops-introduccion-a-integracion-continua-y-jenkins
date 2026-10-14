@@ -24,8 +24,6 @@ Curso práctico de Grafana utilizando Ubuntu 24.04.5 LTS como entorno de laborat
 - Prometheus: [Versión pendiente]
 - Node Exporter: [Versión pendiente]
 
-## Documentación
-
-La documentación está disponible en:
-
-[URL de GitHub Pages pendiente]
+## 👤 Autor
+[Guillem Hernández Sola](https://www.linkedin.com/in/guillemhs/)
+[GitHub: @guillemhs](https://github.com/guillemhs)
