@@ -17,6 +17,10 @@ Aprende los fundamentos de **DevOps** y la integración continua con **Jenkins**
 
 Se recomienda tener conocimientos básicos de Linux, línea de comandos y Git. No es necesario tener experiencia previa con Jenkins, Terraform o Ansible.
 
-## Licencia
+## Licencia y autoría
 
 Curso de **Guillem Hernández Sola · Agile611**, distribuido bajo la licencia **CC BY-NC 4.0**.
+
+[Guillem Hernández Sola](https://www.linkedin.com/in/guillemhs/)
+
+[GitHub: @guillemhs](https://github.com/guillemhs)
