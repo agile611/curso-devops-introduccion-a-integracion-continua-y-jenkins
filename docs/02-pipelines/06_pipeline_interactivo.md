@@ -1463,7 +1463,7 @@ pipeline {
 Sustituye `GRUPO_AUTORIZADO` solo con el valor facilitado por el administrador.
 
 !!!note "Importante para que funcione el ejemplo"
-    Para que esto vaya con usuarios concretos, se necesita el plugin `Role-based Authorization Strategy`
+    Para que esto vaya con usuarios concretos, se necesita el plugin [https://plugins.jenkins.io/role-strategy/](`Role-based Authorization Strategy`)
 
 #### Instrucciones
 
