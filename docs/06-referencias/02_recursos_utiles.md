@@ -1226,6 +1226,17 @@ Un recurso es más confiable cuando:
 
 ---
 
+## Repositorios de trabajo
+
+Estos repositorios sirven como ejemplos para practicar builds, pruebas e integración con Jenkins. Antes de ejecutarlos, comprueba los requisitos y utiliza únicamente el entorno autorizado del curso.
+
+- [InitialBattleShipMaven](https://github.com/agile611/InitialBattleShipMaven): juego de Battleship para consola, escrito en Java y construido con Maven. Permite trabajar con compilación, empaquetado en un JAR ejecutable y pruebas, incluidas pruebas unitarias y escenarios de Cucumber.
+- [simple-maven-spring-boot-example](https://github.com/agile611/simple-maven-spring-boot-example): aplicación sencilla de ejemplo con Spring MVC, configuración XML y vistas JSP, construida con Maven y empaquetada como WAR. Aunque el nombre del repositorio menciona Spring Boot, su README describe una aplicación Spring MVC tradicional, no una aplicación Spring Boot.
+- [the-example-app-nodejs](https://github.com/agile611/the-example-app-nodejs): aplicación de ejemplo con Node.js y Express que enseña a consumir las API de Contentful. Incluye instrucciones y archivos para construirla con Docker y trabajar su integración con Jenkins.
+- [jenkins-docker-agent](https://github.com/agile611/jenkins-docker-agent): colección de Dockerfiles para crear agents de Jenkins conectados por SSH, con variantes que incluyen Java y herramientas como Maven, Ansible, Terraform o Node.js. La configuración del agent y de Docker Cloud en Jenkins se realiza aparte. Las imágenes documentan una contraseña predeterminada para el usuario `jenkins`: no las expongas fuera de un entorno controlado y cambia esa contraseña antes de cualquier uso no aislado.
+
+---
+
 ## Sesiones prácticas
 
 Las prácticas convierten el catálogo en una herramienta de aprendizaje y consulta.
