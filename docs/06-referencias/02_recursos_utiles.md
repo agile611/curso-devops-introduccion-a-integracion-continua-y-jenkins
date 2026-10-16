@@ -1,4 +1,4 @@
-# 02_recursos_utiles.md — Recursos útiles para el curso DevOps: Introducción a Jenkins
+# Recursos útiles para el curso DevOps: Introducción a Jenkins
 
 Jenkins forma parte de un ecosistema: automatiza procesos, pero trabaja junto con control de versiones, agentes de ejecución, herramientas de build, pruebas, artefactos, seguridad y observabilidad. Esta página reúne recursos para aprender cada pieza, saber dónde buscar respuestas y practicar de forma gradual en un entorno de curso.
 
