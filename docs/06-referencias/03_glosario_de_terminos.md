@@ -1,4 +1,4 @@
-# 03_glosario_de_terminos.md — Glosario de términos DevOps e introducción a Jenkins
+# Glosario de términos DevOps e introducción a Jenkins
 
 Este glosario reúne conceptos necesarios para entender Jenkins y su papel en un flujo DevOps. Incluye términos de integración continua, Pipelines, control de versiones, agentes, builds, pruebas, artefactos y seguridad. Cada entrada explica el concepto, lo relaciona con Jenkins y, cuando conviene, ofrece una pregunta o un ejemplo para practicar.
 
