@@ -1,4 +1,4 @@
-# 07_modificando_la_infraestructura.md — Modificar infraestructura con Terraform
+# Modificar infraestructura con Terraform
 
 Esta guía enseña a cambiar una configuración Terraform de forma controlada, revisar el plan resultante y aplicar los cambios únicamente en un laboratorio local. El proyecto utiliza `terraform_data`: permite practicar el ciclo de modificación sin proveedores cloud, cuentas reales ni credenciales.
 

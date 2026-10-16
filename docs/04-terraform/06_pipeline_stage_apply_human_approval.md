@@ -1,4 +1,4 @@
-# 06_pipeline_stage_apply_human_approval.md — Etapa `apply` con aprobación humana
+# Etapa `apply` con aprobación humana
 
 Esta guía enseña a diseñar una etapa de aplicación de Terraform protegida por una aprobación humana en Jenkins. El ejemplo está limitado a un laboratorio local: utiliza `terraform_data`, no declara proveedores cloud, no necesita credenciales y solo modifica el estado local del proyecto. No administra máquinas, redes ni servicios externos.
 

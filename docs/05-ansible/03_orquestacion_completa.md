@@ -1,4 +1,4 @@
-# 03_orquestacion_completa.md — Orquestación completa con Ansible
+# Orquestación completa con Ansible
 
 Esta guía integra los conceptos fundamentales de Ansible en un flujo de orquestación: inventario, configuración, plantillas, handlers, roles, validaciones, ejecución por etapas y verificación final. El objetivo es aprender a coordinar tareas relacionadas con un orden explícito y un alcance verificable, no lanzar una colección de comandos a ciegas.
 

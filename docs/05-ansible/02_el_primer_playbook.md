@@ -1,4 +1,4 @@
-# 02_el_primer_playbook.md — Crear y ejecutar el primer playbook de Ansible
+# Crear y ejecutar el primer playbook de Ansible
 
 Esta guía acompaña al alumnado desde la preparación de un laboratorio local hasta la escritura, revisión y ejecución de un primer playbook. El proyecto se limita a `localhost` y a un directorio temporal de práctica: no requiere servidores remotos, credenciales ni privilegios administrativos.
 

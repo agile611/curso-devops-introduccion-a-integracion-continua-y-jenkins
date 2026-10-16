@@ -1,4 +1,4 @@
-# 05_creando_el_plan.md — Crear y revisar un plan de Terraform
+# Crear y revisar un plan de Terraform
 
 Crear un plan permite inspeccionar los cambios que Terraform prevé antes de aplicarlos. En esta práctica aprenderás a preparar una configuración local, ejecutar `terraform plan`, interpretar sus acciones y comprobar cómo cambia el resultado cuando cambia la configuración. Los ejemplos usan recursos de laboratorio que no se conectan a una nube.
 
