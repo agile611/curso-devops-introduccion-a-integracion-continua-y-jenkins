@@ -15,10 +15,6 @@
       title: "Pipelines"
     },
     {
-      path: "03-miscelania",
-      title: "Miscelánea"
-    },
-    {
       path: "04-practicas",
       title: "Prácticas"
     },

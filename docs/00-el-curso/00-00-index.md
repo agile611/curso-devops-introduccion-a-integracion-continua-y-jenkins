@@ -78,7 +78,7 @@ Creación y evolución de pipelines, desde la estructura de un `Jenkinsfile` has
 
 Configuración de agentes efímeros para ejecutar trabajos en entornos aislados.
 
-- [Configuración de agentes efímeros con Docker Cloud](../03-miscelania/01_configuracion_agentes_efimeros.md)
+- [Configuración de agentes efímeros con Docker Cloud](00-04-configuracion-agentes-efimeros.md)
 
 ### 5. Prácticas
 

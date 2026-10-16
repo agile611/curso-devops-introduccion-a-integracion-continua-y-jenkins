@@ -102,6 +102,7 @@ nav:
       - Objetivos del curso: 00-el-curso/00-01-objetivos.md
       - Requisitos previos: 00-el-curso/00-02-requisitos-previos.md
       - Instalación de Jenkins: 00-el-curso/00-03-instalacion-jenkins.md
+      - Configuración de agentes efímeros: 00-el-curso/00-04-configuracion-agentes-efimeros.md
 
   - Fundamentos:
       - ¿Qué es DevOps?: 01-fundamentos/01_quien_es_devops.md
@@ -129,9 +130,6 @@ nav:
       - El bloque script: 02-pipelines/09_el_bloque_script.md
       - Captura de datos: 02-pipelines/10_capturando_datos.md
       - Construcción completa de una aplicación: 02-pipelines/11_construccion_completa.md
-
-  - Miscelánea:
-      - Agentes efímeros con Docker Cloud: 03-miscelania/01_configuracion_agentes_efimeros.md
 
   - Prácticas:
       - Configuración básica: 04-practicas/01_practica_configuracion_basica.md
